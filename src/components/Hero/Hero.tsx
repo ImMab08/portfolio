@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 export const Hero = () => {
   const [typeEffect] = useTypewriter ({
     words: ["Frontend Developer", "Backend Developer", "Full Stack Developer"],
-    loop: {},
+    loop: true,
     typeSpeed: 80,
     delaySpeed: 1500,
     deleteSpeed: 40,
