@@ -13,13 +13,10 @@ export const Hero = () => {
     deleteSpeed: 40,
   })
   return (
-    <section className='flex flex-col items-star justify-center space-y-5 relative'>
-      {/* <div className=" w-full h-full overflow-hidden">
-        <Image className='absolute z-0 top-48 left-10 opacity-20' src="/img/mainIconsdark.svg" width={300} height={300} alt="" />
-      </div> */}
+    <section className=' h-screen flex flex-col items-star justify-center space-y-5  '>
 
       <div className=''>
-        <div>
+        <div className=''>
           <h1 className='text-tertiary text-2xl font-bold'>Hey There!</h1>
           <h2 className='text-tertiary text-4xl font-bold'>Im Franky Vargas</h2>
           <h1 className='text-tertiary text-2xl font-bold'>
@@ -31,8 +28,7 @@ export const Hero = () => {
 
         <div className='flex items-center justify-center'>
           <Image className='relative' src="/img/picture-franky.png" width={300} height={300} alt="" />
-        </div>
-        
+        </div>        
       </div>
 
       <div className='flex items-center justify-center'>
