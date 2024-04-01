@@ -10,7 +10,7 @@ export const Hero = () => {
 
       <div>
         <h1 className='text-tertiary text-2xl font-bold'>Hey There!</h1>
-        <h2 className='text-tertiary text-4xl font-bold'>I'm Franky Vargas</h2>
+        <h2 className='text-tertiary text-4xl font-bold'>Im Franky Vargas</h2>
         <h1 className='text-tertiary text-2xl font-bold'>Full <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'> &#123; Stack Developer &#125; </span></h1>
       </div>
 
