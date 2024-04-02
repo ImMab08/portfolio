@@ -41,8 +41,8 @@ export const Navbard = () => {
           <Link className="text-white text-2xl" href="/proyects" onClick={closeMenu}>Proyects</Link>
           <Link className="text-white text-2xl" href="/contact" onClick={closeMenu}>Contact</Link>
         </div>
-        <div>
-          
+
+        <div>  
         </div>
       </div>
 
