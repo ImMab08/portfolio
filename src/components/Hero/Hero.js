@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
 
-export const Hero = () => {
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+
+const Hero = () => {
   const [typeEffect] = useTypewriter ({
     words: ["Frontend Developer", "Backend Developer", "Full Stack Developer"],
     loop: true,
@@ -16,7 +16,7 @@ export const Hero = () => {
   return (
     <section className=' h-screen flex flex-col items-center justify-center   '> 
 
-      <div className=' lg:flex lg:w-full lg:px-32 '>
+      <div className=' lg:flex lg:w-full lg:px-36 '>
 
         <div className='lg:w-1/2 lg:flex lg:flex-col lg:justify-center '>
           <h1 className='text-tertiary text-2xl lg:text-5xl font-bold'>Hey There!</h1>
@@ -28,7 +28,8 @@ export const Hero = () => {
           </h1>
 
           <div className='flex items-center mt-5 lg:mt-14'>
-            <a target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold" download="" href="/HV-Franky-Vargas.pdf">CV
+            {/* download="" href="/HV-Franky-Vargas.pdf" */}
+            <a target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold">CV
               <div className="w-[20px]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="w-full h-auto  ml-1">
                   <path fill="none" d="M0 0h24v24H0z"></path>
@@ -59,3 +60,4 @@ export const Hero = () => {
   )
 }
 
+export default Hero;

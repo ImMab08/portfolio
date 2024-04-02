@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 
-export const About = () => {
+const About = () => {
   return (
-    <section id="About" className='h-full flex flex-col justify-center'>
+    <section id="About" className='h-full  flex flex-col justify-center'>
 
       <section className='h-screen flex flex-col justify-center items-center'>
         <div className=' lg:w-1/2 lg:flex lg:flex-col lg:items-center lg:justify-center'>
@@ -31,7 +31,7 @@ export const About = () => {
         </div>
         <div className='flex flex-col items-center mt-[2rem]'>
           <h1 className='text-white text-3xl lg:text-4xl text-center font-bold'>PROGRAMMING LANGUAGES</h1>
-          <Image className='  z-0 opacity-80 ' src="/img/mainIconsdark.svg" width={600} height={600} alt="" />
+          <Image className='  z-0 opacity-80 ' src="/img/mainIconsdarkcopy.svg" width={600} height={600} alt="" />
         </div>
         <div className='flex flex-col items-center lg:mt-[10rem]'>
           <h1 className='text-white text-3xl lg:text-4xl font-bold'>SKILLS</h1>
@@ -41,3 +41,5 @@ export const About = () => {
     </section>
   );
 };
+
+export default About;

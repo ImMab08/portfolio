@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export const Navbard = () => {
+const Navbard = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -45,9 +45,8 @@ export const Navbard = () => {
         <div>  
         </div>
       </div>
-
        
-      <header className="w-full bg-primary lg:px-36 lg:py-10 z-[50] fixed top-0 ">
+      <header className="w-full bg-primary lg:px-36 lg:py-10 fixed top-0 z-0 ">
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
             <Link className="text-white text-lg" href="/" onClick={closeMenu}>Home</Link>
@@ -91,6 +90,8 @@ export const Navbard = () => {
     </>
   );
 };
+
+export default Navbard;
 
 {
   /* <section className="z-[50] fixed top-0 w-full border-b backdrop-blur-sm bg-black/[0.6] border-white/[0.1]">
