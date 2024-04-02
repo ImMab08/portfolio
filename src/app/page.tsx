@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <main className="bg-primary px-5 ">
       <Hero />
-      {/* <About /> */}
     </main>
   );
 }

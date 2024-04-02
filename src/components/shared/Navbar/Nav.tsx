@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Navbard = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,6 +38,7 @@ export const Navbard = () => {
         <div className="flex flex-col justify-center items-center gap-5 text-sm font-medium">
           <Link className="text-white text-2xl" href="/" onClick={closeMenu}>Home</Link>
           <Link className="text-white text-2xl" href="/about" onClick={closeMenu}>About</Link>
+          <Link className="text-white text-2xl" href="/proyects" onClick={closeMenu}>Proyects</Link>
           <Link className="text-white text-2xl" href="/contact" onClick={closeMenu}>Contact</Link>
         </div>
         <div>
@@ -45,21 +47,28 @@ export const Navbard = () => {
       </div>
 
        
-      <header className="w-full bg-primary lg:px-36 lg:pt-10 z-[50] fixed top-0 ">
+      <header className="w-full bg-primary lg:px-36 lg:py-10 z-[50] fixed top-0 ">
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
             <Link className="text-white text-lg" href="/" onClick={closeMenu}>Home</Link>
             <Link className="text-white text-lg" href="/about" onClick={closeMenu}>About</Link>
+            <Link className="text-white text-lg" href="/proyects" onClick={closeMenu}>Proyects</Link>
             <Link className="text-white text-lg" href="/contact" onClick={closeMenu}>Contact</Link>
           </div>
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
-          <Link className="text-white text-lg" href="/" onClick={closeMenu}>Home</Link>
-            <Link className="text-white text-lg" href="/about" onClick={closeMenu}>About</Link>
-            <Link className="text-white text-lg" href="/contact" onClick={closeMenu}>Contact</Link>
+            <a className="text-white text-lg" href="https://github.com/ImMab08" onClick={closeMenu} target="_blank">
+              <Image className=' ' src="/img/github.svg" width={30} height={30} alt="" />
+            </a>
+            <a className="text-white text-lg" href="https://www.linkedin.com/in/franky-vargas-b59648278/" onClick={closeMenu} target="_blank">
+              <Image className=' ' src="/img/linkedin.svg" width={30} height={30} alt="" />
+            </a>
+            <a className="text-white text-lg" href="/contact" onClick={closeMenu}>
+
+            </a>
           </div>
         </div>
         
-        <div className="flex md:hidden container pt-5 items-center justify-between px-5">
+        <div className="flex md:hidden container py-5 items-center justify-between px-5">
           <div className={`container-svg-header ${menuOpen ? "open" : ""}`}>
             <svg
               onClick={toggleMenu}
