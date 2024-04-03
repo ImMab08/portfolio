@@ -12,7 +12,7 @@ const About = () => {
         </div>
       </section>
       
-      <div className="flex items-end ">
+      {/* <div className="flex items-end ">
         <div className="mr-[calc(-1*(theme(spacing.8)-theme(spacing[1.5])))] h-11 flex-auto bg-[#131316]"></div>
         <div className="flex justify-between mx-auto w-full px-6 sm:max-w-[40rem] md:max-w-[48rem] md:px-8 lg:max-w-[64rem] xl:max-w-[80rem]">
           <svg viewBox="0 0 56 48" aria-hidden="true" className="-ml-1.5 mb-[calc(-1/16*1rem)] w-14 flex-none overflow-visible fill-[#131316]">
@@ -23,7 +23,7 @@ const About = () => {
           </svg>
         </div>
         <div className="ml-[calc(-1*(theme(spacing.8)-theme(spacing[1.5])))] h-11 flex-auto bg-[#131316]"></div>
-      </div>
+      </div> */}
       <div className='flex flex-col lg:grid lg:grid-flow-col grid-cols-1 lg:grid-cols-3 h-full w-full items-center justify-center bg-[#131316]'>
         <div className='flex flex-col items-center mt-10 lg:mt-[10rem]'>
           <h1 className='text-white text-3xl lg:text-4xl font-bold'>BIOGRAPHY</h1>

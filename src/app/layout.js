@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import Navbard from '@/components/shared/Navbar/Nav'
-import PageTransition from '@/components/PageTransition'
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +13,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`bg-primary  ${inter.className}`}>
-        <PageTransition />
         <Navbard />
         {children}
       </body>

@@ -1,12 +1,12 @@
 import React from "react";
-import About from "@/components/About/About";
+import Contact from "../../components/Contact/Contact";
 import Curve from "@/components/shared/Curve";
 
 export default function page() {
   return (
     <>
-      <Curve >
-        <About />
+      <Curve>
+        <Contact />
       </Curve>
     </>
   );

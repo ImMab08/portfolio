@@ -13,6 +13,9 @@ const config: Config = {
         secondary: "#272727",
         tertiary: "#ffff",
       },
+      boxShadow: {
+        '3xl': '5px 5px 60px 5px rgba(100, 100, 100, 0.3)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
