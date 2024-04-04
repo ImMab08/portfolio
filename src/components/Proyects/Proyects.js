@@ -81,7 +81,7 @@ export default function Proyects() {
               </div>
             </Slider>            
           </div>
-          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[8rem] lg:left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
             <div className="ml-2">
               <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
             </div>
@@ -134,7 +134,7 @@ export default function Proyects() {
               </div>
             </Slider>
           </div>
-          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[8rem] lg:left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
             <div className="ml-2">
               <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
             </div>
@@ -187,7 +187,7 @@ export default function Proyects() {
               </div>
             </Slider>
           </div>
-          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[8rem] lg:left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
             <div className="ml-2">
               <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
             </div>
@@ -240,7 +240,7 @@ export default function Proyects() {
               </div>
             </Slider>
           </div>
-          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[8rem] lg:left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
             <div className="ml-2">
               <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
             </div>
