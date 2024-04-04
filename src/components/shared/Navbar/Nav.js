@@ -46,7 +46,7 @@ const Navbard = () => {
         </div>
       </div>
        
-      <header className="w-full bg-primary lg:px-36 lg:py-10 fixed top-0 z-0 ">
+      <header className="w-full bg-primary lg:px-36 lg:py-10 fixed top-0 z-10 ">
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
             <Link className="text-white text-lg" href="/" onClick={closeMenu}>Home</Link>

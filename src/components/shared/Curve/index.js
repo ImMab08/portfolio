@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { text, curve, translate } from "./anim";
 
+import "@/app/globals.css";
+
 const routes = {
   "/": "Home",
   "/about": "About",
