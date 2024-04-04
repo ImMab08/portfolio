@@ -1,10 +1,14 @@
-"use client";
+'use client';
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import FramerMagnetic from '@/components/FramerMagnetic'
+import { motion } from "framer-motion";
+
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Proyects() {
   const settings = {
@@ -30,7 +34,7 @@ export default function Proyects() {
             Development
           </h1>
         </div>
-        <div className="w-[300px] lg:w-[500px] full border-2 rounded-xl p-5  shadow-3xl mt-14">
+        <div  className="w-[300px] lg:w-[500px] full border-2 rounded-xl p-5  shadow-3xl mt-14">
           <h2 className="text-white text-4xl font-semibold text-center ">
             Univalle App
           </h2>
@@ -75,9 +79,13 @@ export default function Proyects() {
                   a pqrs
                 </p>
               </div>
-            </Slider>
+            </Slider>            
           </div>
-          {/* Agrega más elementos de carrusel aquí */}
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+            <div className="ml-2">
+              <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
+            </div>
+          </motion.a> 
         </div>
         <div className="w-[300px] lg:w-[500px] full border-2 rounded-xl p-5  shadow-3xl mt-14">
           <h2 className="text-white text-4xl font-semibold text-center ">
@@ -126,6 +134,11 @@ export default function Proyects() {
               </div>
             </Slider>
           </div>
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+            <div className="ml-2">
+              <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
+            </div>
+          </motion.a> 
         </div>
         <div className="w-[300px] lg:w-[500px] full border-2 rounded-xl p-5  shadow-3xl mt-14">
           <h2 className="text-white text-4xl font-semibold text-center ">
@@ -174,6 +187,11 @@ export default function Proyects() {
               </div>
             </Slider>
           </div>
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+            <div className="ml-2">
+              <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
+            </div>
+          </motion.a> 
         </div>
         <div className="w-[300px] lg:w-[500px] full border-2 rounded-xl p-5  shadow-3xl mt-14">
           <h2 className="text-white text-4xl font-semibold text-center ">
@@ -222,8 +240,13 @@ export default function Proyects() {
               </div>
             </Slider>
           </div>
+          <motion.a whileHover={{ scale: 1.2, }} whileTap={{ scale: 0.8, }} target="_blank" className="flex relative left-[20rem] w-32 justify-end text-white text-base font-semibold cursor-pointer pt-5">View More
+            <div className="ml-2">
+              <Image src="/img/link.svg" width={23} height={23} alt=""></Image>
+            </div>
+          </motion.a> 
         </div>
-        <div className="lg:w-[500px]  flex flex-col justify-center items-center lg:items-end">
+        <div className="hidden lg:w-[500px] lg:flex flex-col justify-center items-center lg:items-end">
           <h1 className="text-white text-4xl lg:text-6xl font-bold">
             Innovation at
           </h1>
