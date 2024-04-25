@@ -44,6 +44,7 @@ const Navbard = () => {
           <Link className="text-white text-2xl hover:text-green-500" href="/proyects" onClick={closeMenu}>Proyects</Link>
           <Link className="text-white text-2xl hover:text-green-500" href="/contact" onClick={closeMenu}>Contact</Link>
         </div>
+        <div></div>
       </div>
 
       <header className="w-full bg-primary lg:px-36 lg:py-10 fixed top-0 z-10 ">
