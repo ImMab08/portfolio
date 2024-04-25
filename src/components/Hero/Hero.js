@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div className='lg:w-1/2 lg:flex lg:flex-col lg:justify-center '>
           <h1 className='text-tertiary text-2xl lg:text-5xl font-bold'>Hey There!</h1>
-          <h2 className='text-tertiary text-4xl lg:text-6xl font-bold'>Im Franky Vargas</h2>
+          <h2 className='text-tertiary text-4xl lg:text-6xl font-bold'>I&apos;m Franky Vargas</h2>
           <h1 className='text-tertiary text-2xl lg:text-5xl font-bold'>
             <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>
             &#123; {typeEffect} &#125;
