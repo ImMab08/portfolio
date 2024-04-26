@@ -78,7 +78,7 @@
 }
 
 /* Transition */
-.curve{
+/* .curve{
   svg, .background{
       position: fixed;
       height: calc(100vh + 600px);
@@ -102,7 +102,7 @@
       transform: translateX(-50%);
       text-align: center;
   }
-}
+} */
 
 .slick-list {
   width: 415px;
@@ -127,4 +127,230 @@
     width: 230px;
   }
 }
+
+/* SVG */
+
+:root {
+  --dark-color: #707070;
+  --light-color: #ffff;
+}
+
+/* AWS SVG */
+/* #AWS {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#AWS:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#AWS:hover #AWSLogo {
+  fill: #FF9C08;
+  stroke: #FF9C08;
+}
+#AWS:hover #AWSLogo1 {
+  fill: #ffff;
+  stroke: #ffff;
+} */
+
+/* Azure SVG */
+/* #Azure {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#Azure:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#Azure:hover #AzureLogo {
+  fill: #0089D6;
+  stroke: #0089D6;
+} */
+
+/* GitHub SVG */
+/* #GitHub {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#GitHub:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#GitHub:hover #GitHubLogo {
+  fill: var(--light-color);
+  stroke: var(--light-color);
+} */
+
+/* TypeScript SVG */
+/* #TypeScript {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#TypeScript:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+
+#TypeScript:hover #TSName {
+  fill: #2F74C0;
+  stroke: #2F74C0;
+} */
+
+/* JavaScript SVG */
+/* #JavaScript {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#JavaScript:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#JavaScript:hover #JSName {
+  fill: #FFD83A;
+  stroke: #FFD83A;
+} */
+
+/* Python SVG */
+/* #Python {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#Python:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#Python:hover #pythonDonw {
+  fill: #0075D1;
+  stroke: #0075D1;
+}
+#Python:hover #pythonUp {
+  fill: #FFD83A;
+  stroke: #FFD83A;
+} */
+
+/* Angular SVG */
+/* #Angular {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#Angular:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#Angular:hover #Vector_33 {
+  fill: #DD0031;
+  stroke: #DD0031;
+}
+#Angular:hover #Vector_34 {
+  fill: #C3002F;
+  stroke: #C3002F;
+}
+#Angular:hover #Vector_35 {
+  fill: #ffff;
+  stroke: #fff;
+} */
+
+/* Vue SVG */
+/* #Vue {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#Vue:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#Vue:hover #Vector_36 {
+  fill: #435466;
+  stroke: #435466;
+}
+#Vue:hover #Vector_37 {
+  fill: #4DBA87;
+  stroke: #4DBA87;
+} */
+
+/* php SVG */
+/* #php {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#php:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#php:hover #phpLogo {
+  fill: #7477B0;
+  stroke: #7477B0;
+} */
+
+/* NextJS SVG */
+/* #NextJS {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#NextJS:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#NextJS:hover #NextJSLogo {
+  fill: #ffff;
+  stroke: #ffff;
+} */
+
+/* C# SVG */
+/* #Cchart {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#Cchart:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#Cchart:hover #Vector_27 {
+  fill: #A47DDD;
+  stroke: #A47DDD;
+}
+#Cchart:hover #Vector_28 {
+  fill: #2F086D;
+  stroke: #2F086D;
+}
+#Cchart:hover #Vector_29 {
+  fill: #3F0894;
+  stroke: #3F0894;
+}
+#Cchart:hover #Vector_30 {
+  fill: #ffff;
+  stroke: #ffff;
+}
+#Cchart:hover #Vector_31 {
+  fill: #ffff;
+  stroke: #ffff;
+} */
+
+/* .NET SVG */
+/* #NET {
+  stroke: var(--dark-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#NET:hover #BG {
+  fill: var(--light-color);
+  fill-opacity: 0.1;
+}
+#NET:hover #NETLogo {
+  fill: #ffff;
+  stroke: #ffff;
+} */
+
+
 
