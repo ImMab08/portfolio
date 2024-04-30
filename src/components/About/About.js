@@ -21,7 +21,7 @@ const About = () => {
             blend of innovation and technical expertise in each project.
           </p>
         </div>
-        <Image className="hidden md:block md:absolute md:top-[30rem] md:right-[4rem] 2xl:top-[48rem] 2xl:right-[6rem]" src="/img/Innovation-amico.png" width={300} height={1000} />
+        <Image className="hidden md:block md:absolute md:top-[34rem] md:right-[4rem] 2xl:top-[48rem] 2xl:right-[6rem]" src="/img/Innovation-amico.png" width={300} height={1000} />
         <Image className="block md:hidden pt-10" src="/img/Innovation-amico.png" width={300} height={300} />
       </section>
 
@@ -48,14 +48,20 @@ const About = () => {
                     </time>
                   </div>
                 </div>
-                <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
-                </div>
+                <div className="relative flex flex-col gap-2 pb-4 md:col-span-3">
+                  <p className=" text-gray-600 dark:text-gray-300 ">
+                    Built Landing Pages from Scratch: Developed landing pages 
+                    from mockups, ensuring a seamless
+                    transition from design to implementation.
+                  </p>
+                  <p className=" text-gray-600 dark:text-gray-300">
+                    Custom Plugins for API Queries: Created personalized 
+                    plugins for querying data through a REST API, enhancing 
+                    data retrieval and integration capabilities.
+                  </p>
+                </div>  
+
+
               </div>
             </li>
             <li className="">

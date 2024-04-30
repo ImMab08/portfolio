@@ -38,10 +38,12 @@ const Hero = () => {
               </div>
             </a> 
 
-            <div className='flex'>
+            <div className='flex items-center group'>
               <Link className='text-white text-base lg:text-lg font-semibold' href="/about">Learn More</Link>
-              <Image className='hidden lg:block' src="/img/arrow-right.svg" width={30} height={30} alt="" />
-              <Image className='lg:hidden' src="/img/arrow-right.svg" width={20} height={20} alt="" />
+              <div className="ml-2 transition-transform duration-300 transform group-hover:translate-x-4  ">
+                <Image className='hidden lg:block' src="/img/arrow-right.svg" width={30} height={30} alt="" />
+                <Image className='lg:hidden' src="/img/arrow-right.svg" width={20} height={20} alt="" />
+              </div>
             </div>
           </div>
         </div>
