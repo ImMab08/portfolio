@@ -27,9 +27,8 @@ const Hero = () => {
             </span>
           </h1>
 
-          <div className='flex items-center mt-5 lg:mt-14'>
-            {/* download="" href="/HV-Franky-Vargas.pdf" */}
-            <a target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold">CV
+          <div className='flex items-center mt-5 lg:mt-14'>            
+            <a download="" href="/HVFrankyHelyVargasLopez.pdf" target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold">CV
               <div className="w-[20px]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="w-full h-auto  ml-1">
                   <path fill="none" d="M0 0h24v24H0z"></path>

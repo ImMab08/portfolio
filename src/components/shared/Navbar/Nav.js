@@ -30,7 +30,6 @@ const Navbard = () => {
           <Link className="text-white text-2xl hover:text-green-500" href="/" onClick={closeMenu}>Home</Link>
           <Link className="text-white text-2xl hover:text-green-500" href="/about" onClick={closeMenu}>About</Link>
           <Link className="text-white text-2xl hover:text-green-500" href="/proyects" onClick={closeMenu}>Proyects</Link>
-          <Link className="text-white text-2xl hover:text-green-500" href="/contact" onClick={closeMenu}>Contact</Link>
         </div>
         <div></div>
       </div>
@@ -46,9 +45,6 @@ const Navbard = () => {
             </FramerMagnetic>
             <FramerMagnetic>
               <Link className="text-white text-lg hover:text-green-500" href="/proyects" onClick={closeMenu}>Proyects</Link>
-            </FramerMagnetic>
-            <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/contact" onClick={closeMenu}>Contact</Link>
             </FramerMagnetic>
           </div>
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">

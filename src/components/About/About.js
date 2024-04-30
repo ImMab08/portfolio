@@ -34,18 +34,10 @@ const About = () => {
               <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
                 <div className="relative pb-12 md:col-span-2">
                   <div className="sticky top-0">
-                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">
-                      •
-                    </span>
-                    <h3 className="text-xl font-bold text-green-600">
-                      Junior Frontend Developer
-                    </h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">
-                      @Maxwell Leadership
-                    </h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
-                      May 2023 - March 2024 (9 months)
-                    </time>
+                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
+                    <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
+                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Maxwell Leadership</h4>
+                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">May 2023 - March 2024 (9 months)</time>
                   </div>
                 </div>
                 <div className="relative flex flex-col gap-2 pb-4 md:col-span-3">
@@ -68,27 +60,26 @@ const About = () => {
               <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
                 <div className="relative pb-12 md:col-span-2">
                   <div className="sticky top-0">
-                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">
-                      •
-                    </span>
-                    <h3 className="text-xl font-bold text-green-600">
-                      Junior Frontend Developer
-                    </h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">
-                      @Klazia
-                    </h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">
-                      September 2023 - March 2024 (6 months)
-                    </time>
+                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
+                    <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
+                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Klazia</h4>
+                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">September 2023 - March 2024 (6 months)</time>
                   </div>
                 </div>
-                <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                <div className="relative flex flex-col gap-2 pb-4 md:col-span-3">
+                  <p className=" text-gray-600 dark:text-gray-300 ">
+                    Enhance custom components for different platforms built 
+                    for students, parents, super admin, content manager, advisors, 
+                    affiliates and teachers. Improve readability and functionality, 
+                    through refactoring the legacy project architecture.
+                  </p>
+                  <p className=" text-gray-600 dark:text-gray-300">
+                    Build a chat system for our students and teachers.
+                  </p>
+                  <p className=" text-gray-600 dark:text-gray-300">
+                    Migrate from PHP to NextJS 14 and Node.js, helping to 
+                    increase efficiency for our team and students as well.
+                  </p>
                 </div>
               </div>
             </li>
@@ -96,24 +87,26 @@ const About = () => {
               <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
                 <div className="relative pb-12 md:col-span-2">
                   <div className="sticky top-0">
-                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">
-                      •
-                    </span>
-                    <h3 className="text-xl font-bold text-green-600">
-                      React Native Teacher
-                    </h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">
-                      @Klazia
-                    </h4>
+                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
+                    <h3 className="text-xl font-bold text-green-600">React Native Teacher</h3>
+                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Klazia</h4>
                   </div>
                 </div>
-                <div className="relative flex flex-col gap-2 pb-4 text-gray-600 dark:text-gray-300 md:col-span-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                <div className="relative flex flex-col gap-2 pb-4 md:col-span-3">
+                  <p className=" text-gray-600 dark:text-gray-300 ">
+                    Develop an introductory course to the development of 
+                    mobile applications with React Native.
+                  </p>
+                  <p className=" text-gray-600 dark:text-gray-300">
+                    Create and design didactic material for students.
+                  </p>
+                  <p className=" text-gray-600 dark:text-gray-300">
+                    Create, design and execute a project for the course as a 
+                    final test of knowledge. An instagram style blog application 
+                    was made where basic to advanced knowledge such as useState, 
+                    useEffect, useContext, use of props, creation of hooks, etc... 
+                    were put into practice.
+                  </p>
                 </div>
               </div>
             </li>
@@ -332,63 +325,66 @@ const About = () => {
         </div>
       </div>
 
-      <section className="w-full h-full md:flex justify-around  my-[5rem]">
-        <div className="flex flex-col items-center md:w-1/2">
-          <h2 className="text-white text-5xl text-center font-bold">Education</h2>
-          <ol className=" px-10 mt-16">
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-red-600 -left-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-red-600">Universidad del Valle</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Administración de Empresas</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2021 - 2026</time>
+      <section className="w-full h-full md:flex flex-col justify-center items-center  my-[5rem]">
+        <h2 className="text-white text-5xl text-center font-bold">Education</h2>
+        <div className="flex items-center ">
+          <div className="">
+            <ol className=" px-10 mt-16">
+              <li className="">
+                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+                  <div className="relative pb-12 md:col-span-5">
+                    <div className="sticky top-0">
+                      <span className=" text-red-600 -left-[47px] absolute rounded-full text-5xl">•</span>
+                      <h3 className="text-xl font-bold text-red-600">Universidad del Valle</h3>
+                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Administración de Empresas</h4>
+                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2021 - 2026</time>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-green-600">SENA</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Análisis y Desarrollo de Software</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2023 - 2025</time>
+              </li>
+              <li className="">
+                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+                  <div className="relative pb-12 md:col-span-5">
+                    <div className="sticky top-0">
+                      <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
+                      <h3 className="text-xl font-bold text-green-600">SENA</h3>
+                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Análisis y Desarrollo de Software</h4>
+                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2023 - 2025</time>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-purple-600 -left-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-purple-600">Udemy</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Web Developmet Bootcamp</h4>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Python Avanzado</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2022</time>
+              </li>
+              <li className="">
+                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+                  <div className="relative pb-12 md:col-span-5">
+                    <div className="sticky top-0">
+                      <span className=" text-purple-600 -left-[47px] absolute rounded-full text-5xl">•</span>
+                      <h3 className="text-xl font-bold text-purple-600">Udemy</h3>
+                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Web Developmet Bootcamp</h4>
+                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Python Avanzado</h4>
+                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2022</time>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-green-500 -left-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-green-500">Platzi</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">English Academy</h4>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Full Stack Developer</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2024</time>
+              </li>
+              <li className="">
+                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+                  <div className="relative pb-12 md:col-span-5">
+                    <div className="sticky top-0">
+                      <span className=" text-green-500 -left-[47px] absolute rounded-full text-5xl">•</span>
+                      <h3 className="text-xl font-bold text-green-500">Platzi</h3>
+                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">English Academy</h4>
+                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Full Stack Developer</h4>
+                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2024</time>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-          </ol>
+              </li>
+            </ol>
+          </div>
+          <Image className=" relative top-[16rem]" src="/img/Programming-amico.png" width={300} height={100} />        
         </div>
-        <div className="flex flex-col items-center md:w-1/2">
+        {/* <div className="flex flex-col items-center md:w-1/2">
           <h2 className="text-white text-5xl text-center font-bold">Skills</h2>
           <ol className=" px-10 mt-16">
             <li className="">
@@ -428,7 +424,7 @@ const About = () => {
               </div>
             </li>
           </ol>
-        </div>
+        </div> */}
       </section>
     </section>
   );
