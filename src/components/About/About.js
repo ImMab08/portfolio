@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -37,7 +35,7 @@ const About = () => {
                     <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
                     <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
                     <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Maxwell Leadership</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">May 2023 - March 2024 (9 months)</time>
+                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">December 2023 - March 2024 (3 months)</time>
                   </div>
                 </div>
                 <div className="relative flex flex-col gap-2 pb-4 md:col-span-3">
@@ -63,7 +61,7 @@ const About = () => {
                     <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
                     <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
                     <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Klazia</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">September 2023 - March 2024 (6 months)</time>
+                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">August 2023 - December 2024 (4 months)</time>
                   </div>
                 </div>
                 <div className="relative flex flex-col gap-2 pb-4 md:col-span-3">
