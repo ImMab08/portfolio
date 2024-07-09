@@ -1,10 +1,15 @@
+'use client'
 import React from "react";
 import Image from "next/image";
+
+import { carouselData } from './config/index'
+import Carousel from './config/Carousel'
 
 const About = () => {
 
   return (
     <section className="h-full flex flex-col justify-center">
+      <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true"><defs><pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse"><path d="M.5 200V.5H200" fill="none"></path></pattern></defs><svg x="50%" y="-1" class="overflow-visible fill-green-800/10"><path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0"></path></svg><rect width="100%" height="100%" stroke-width="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)"></rect></svg>
       <section className="mt-10 h-[100vh] md:mt-5 md:h-screen flex flex-col justify-center items-center">
         <div className=" px-5 md:p-0 lg:w-1/2 lg:flex lg:flex-col lg:items-center lg:justify-center">
           <h1 className="text-tertiary text-3xl lg:text-6xl font-bold text-center">
@@ -19,15 +24,15 @@ const About = () => {
             blend of innovation and technical expertise in each project.
           </p>
         </div>
-        <Image className="hidden md:block md:absolute md:top-[34rem] md:right-[4rem] 2xl:top-[48rem] 2xl:right-[6rem]" src="/img/Innovation-amico.png" width={300} height={1000} />
-        <Image className="block md:hidden pt-10" src="/img/Innovation-amico.png" width={300} height={300} />
+        <Image className="hidden md:block md:absolute md:top-[34rem] md:right-[4rem] 2xl:top-[48rem] 2xl:right-[6rem]" src="/img/Innovation-amico.png" width={300} height={1000} alt=""/>
+        <Image className="block md:hidden pt-10" src="/img/Innovation-amico.png" width={300} height={300} alt=""/>
       </section>
 
       <div className="flex flex-col h-full w-full items-center justify-center bg-[#131316]">
-        <Image src="/img/divbar.png" width={2000} height={100} />
+        <Image src="/img/divbar.png" width={2000} height={100} alt="" />
         <section className="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
-          <h2 className="flex items-center justify-center md:justify-start my-6 text-5xl md:text-6xl font-bold text-white">Experience</h2>
-          <ol className="relative mt-16">
+          <h2 className="flex items-center justify-center md:justify-start my-6 text-4xl md:text-5xl font-bold text-white font-jetbrains">Experience</h2>
+          <ol className="relative mt-16 ">
             <li className="">
               <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
                 <div className="relative pb-12 md:col-span-2">
@@ -44,7 +49,7 @@ const About = () => {
                     from mockups, ensuring a seamless
                     transition from design to implementation.
                   </p>
-                  <p className=" text-gray-600 dark:text-gray-300">
+                  <p className=" text-gray-600 dark:text-gray-300 ">
                     Custom Plugins for API Queries: Created personalized 
                     plugins for querying data through a REST API, enhancing 
                     data retrieval and integration capabilities.
@@ -110,12 +115,67 @@ const About = () => {
             </li>
           </ol>
         </section>
-        <Image src="/img/divbarbottom.png" width={2000} height={100} />
+        <Image src="/img/divbarbottom.png" width={2000} height={100} alt=""/>
       </div>
-      <div className="flex h-full w-full items-center justify-center mt-[2rem]">
+
+      <section className="w-full h-full md:flex flex-col justify-center items-center my-[5rem]">
+        <h2 className="text-white text-5xl text-center font-bold font-jetbrains my-10">Education</h2>
+
+        <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 text-gree gap-10">
+
+          <div className="bg-neutral-900 p-5 rounded-md max-w-md space-y-5">
+            <div className="space-y-2">
+              <div className="flex space-x-2 items-center">
+                <svg width="25" height="25" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M31 0H0V30H31V0Z" fill="#e30512"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2 2H19V11.9499C19 16.3774 15.2795 20 10.7323 20H10.0819C5.63681 20 2 16.4589 2 12.1307V2Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11L30 11.0045L20.6046 28L11 11Z" fill="#FEFEFE" stroke="#e30512" stroke-width="0.5" stroke-miterlimit="22.9256"/>
+                </svg>
+                <h3 className="text-xl font-bold text-red-600">Universidad del Valle</h3>
+              </div>
+              <h4 className="font-semibold text-sm text-gray-600 dark:text-white">Administración de Empresas</h4>
+            </div>
+            <div>
+              <p className="text-sm text-white/60">Carrera profesional en Administrador de Empresas. Con experiencia por competencias en GTH (Gestión del Talento Humano), contabilidad, gestión de proyectos y demás actividades afines. Apoyandome con diferentes herramientas como Office, Power BI y Bases de datos (Relacionales y no relaciones).</p>
+            </div>
+            <div className="flex items-center justify-between">
+              <p className="text-white text-xs hover:text-green-500 py-1 px-4 bg-white/10 rounded-xl">Certification</p>
+              <time className="text-end text-xs text-gray-200/40">2021 - 2026</time>
+            </div>
+          </div>
+
+          <div className="bg-neutral-900 p-5 rounded-md max-w-md space-y-5">
+            <div className="space-y-2">
+              <div className="flex space-x-2 items-center">
+                <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6011 0C14.7091 -1.85685e-06 13.8536 0.353648 13.2229 0.983146C12.5922 1.61264 12.2379 2.46643 12.2379 3.35668C12.2378 3.79748 12.3248 4.23397 12.4938 4.64122C12.6629 5.04847 12.9106 5.41851 13.2229 5.73021C13.5352 6.04191 13.906 6.2891 14.314 6.45779C14.7221 6.62648 15.1594 6.71336 15.6011 6.71336C16.493 6.71335 17.3485 6.35971 17.9792 5.73021C18.6099 5.10071 18.9643 4.24692 18.9643 3.35668C18.9643 2.46644 18.6099 1.61264 17.9792 0.983146C17.3485 0.353649 16.493 2.36327e-06 15.6011 0ZM19.9738 7.74868L19.9706 10.8232L17.2613 7.74999L14.7068 7.75148L14.7064 12.2632L16.5817 12.2617L16.6088 9.27236L19.2195 12.2601L21.8461 12.2692L21.8693 7.76221L19.9738 7.74868ZM8.44076 7.74999L8.40522 12.2671L13.8574 12.261L13.8622 11.2551L10.4032 11.252L10.4175 10.4007L13.493 10.3869V9.42487L10.4317 9.48125V8.76991L13.7473 8.76067L13.7537 7.75512L8.44076 7.74999ZM27.2484 7.75111L25.0758 7.75157L21.9977 12.2655L23.9537 12.2686L24.4212 11.4066L27.5928 11.4223L28.0642 12.2661L30.1637 12.2645L27.2484 7.75111ZM4.753 7.7512C4.64985 7.75109 4.5329 7.75145 4.39765 7.75251C3.75513 7.75709 3.72041 7.75859 3.35083 7.80431C2.82615 7.87038 2.41759 7.98421 2.1048 8.15228C1.82593 8.302 1.61567 8.5193 1.53516 8.74088C1.51061 8.80786 1.48939 8.9356 1.48429 9.03761C1.47632 9.20985 1.51141 9.37301 1.58522 9.51849C1.62684 9.59954 1.63766 9.61639 1.71323 9.70498C1.90479 9.92907 2.18882 10.0711 2.75336 10.2241C3.11869 10.3228 3.4764 10.3947 4.24522 10.5226C4.814 10.6171 4.96146 10.6472 5.14795 10.7066C5.30387 10.7568 5.45899 10.8361 5.51407 10.8955C5.58533 10.9708 5.56842 11.0987 5.47675 11.1773C5.37408 11.2676 5.17922 11.3371 4.94781 11.3663C4.7181 11.3948 4.23579 11.389 4.00353 11.3541C3.63989 11.2989 3.41693 11.1777 3.36777 11.0063C3.36139 10.9837 3.35182 10.9176 3.34911 10.86L3.34273 10.7555L3.20307 10.7524C3.12591 10.7509 2.68853 10.7525 2.23079 10.7555L1.39752 10.7616V10.8219C1.39752 10.9005 1.41794 11.0585 1.43914 11.1463C1.55696 11.6354 1.93672 11.9432 2.62839 12.1113C2.87761 12.1715 3.23954 12.2266 3.53791 12.2492C3.8439 12.2719 4.46774 12.2793 4.86867 12.2651C6.28678 12.2133 7.24121 11.8754 7.5328 11.3236C7.60486 11.1864 7.63882 11.0461 7.63882 10.8855C7.63966 10.6782 7.58638 10.5025 7.47106 10.3336C7.31514 10.1037 7.10313 9.95491 6.72845 9.81027C6.38939 9.67982 6.02836 9.59784 5.20784 9.46323C4.42631 9.33523 4.20247 9.2902 3.9575 9.21159C3.78458 9.15638 3.62529 9.06265 3.59138 8.99579C3.57193 8.95741 3.57193 8.8846 3.59226 8.84113C3.64311 8.72995 3.87194 8.64557 4.19065 8.61963C4.4034 8.60296 4.72125 8.61202 4.92808 8.64138C5.15439 8.67395 5.3638 8.75083 5.45196 8.83534C5.49102 8.8722 5.53422 8.95494 5.55543 9.03182C5.56659 9.07525 5.57489 9.08942 5.58844 9.09202C5.598 9.09508 6.01482 9.0951 6.51323 9.0951L7.42017 9.09202L7.42335 9.03686C7.42654 8.96667 7.40725 8.83788 7.3784 8.74088C7.22837 8.23168 6.67485 7.92486 5.68312 7.8003C5.38835 7.76359 5.1998 7.75181 4.753 7.7512ZM26.0493 8.86129L27.0234 10.5026L25.018 10.4903L26.0493 8.86129ZM14.3646 13.223L0 13.2337V15.6221H4.63034C9.06812 15.6221 9.26401 15.6251 9.39798 15.6881C9.58002 15.7712 9.68613 15.9479 9.71017 16.2041C9.74461 16.585 9.80581 16.1855 6.24388 22.4001L4.13035 26.0291L5.83791 27.6337L14.3646 13.223ZM16.6003 13.2352L25.1387 27.6062L26.8777 26.0213L24.7356 22.3831C21.165 16.2497 21.2317 16.5527 21.2662 16.1769C21.2902 15.924 21.3967 15.7497 21.5793 15.6677C21.7135 15.6062 21.9101 15.6026 26.3588 15.6026H31V13.2452L16.6003 13.2352ZM15.4434 15.7482L7.67212 28.9658L9.69487 29.9247L14.123 22.375L14.8641 21.0458C14.9604 20.8732 15.078 20.8063 15.4328 20.8054C15.758 20.8062 15.8881 20.8924 16.0055 21.0426L16.8216 22.4068L21.3479 30L23.4148 28.8342L15.4434 15.7482Z" fill="#16A34A"/>
+                </svg>
+                <h3 className="text-xl font-bold text-green-600">SENA</h3>
+              </div>
+              <h4 className="font-semibold text-sm text-gray-600 dark:text-white">Análisis y Desarrollo de Software</h4>
+            </div>
+            <div>
+              <p className="text-sm text-white/60 text-justify">Carrera técnologica en Análisis y Desarrollo de Software. Con experiencia por competencia en desarrollo de aplicaciones web y de escritorio, partiendo desde su planeación, diseño y desarrollo. Apoyandome con diferentes herramientas como Miro, Lucichard, Office, Bases de Datos (Relaciones y no relacionales) y diversos lenguajes de programación.</p>
+            </div>
+            <div className="flex items-center justify-between">
+              <p className="text-white text-xs hover:text-green-500 py-1 px-4 bg-white/10 rounded-xl">Certification</p>
+              <time className="text-end text-xs text-gray-200/40">2023 - 2025</time>
+            </div>
+          </div>
+
+          {carouselData.map((items, index) => (
+            <Carousel key={index} items={items} />
+          ))}
+        </div>
+
+      </section>
+      
+      <section className="flex h-full w-full items-center justify-center mt-[2rem]">
         <div clasName="flex flex-col items-center">
-          <h1 className="text-white text-3xl lg:text-4xl text-center font-bold">PROGRAMMING LANGUAGES</h1>
+          <h1 className="text-white text-4xl lg:text-5xl text-center mb-10 font-bold font-jetbrains">Programming Languajes</h1>
           <div className="p-5 w-full h-full max-w-[500px] md:max-w-none md:w-[800px]">
+          {/* <svg className="absolute -z-[-1]" width="700" height="994" viewBox="0 0 1151 994" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_f_10_90)"><circle cx="575.5" cy="418.5" r="75.5" fill="#00D361"/></g><defs><filter id="filter0_f_10_90" x="0" y="-157" width="1151" height="1151" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_10_90"/></filter></defs></svg> */}
+
             <svg  width="100%" height="100%" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="Frame1">
 
@@ -321,109 +381,9 @@ const About = () => {
             </svg>
           </div>
         </div>
-      </div>
-
-      <section className="w-full h-full md:flex flex-col justify-center items-center  my-[5rem]">
-        <h2 className="text-white text-5xl text-center font-bold">Education</h2>
-        <div className="flex items-center ">
-          <div className="">
-            <ol className=" px-10 mt-16">
-              <li className="">
-                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                  <div className="relative pb-12 md:col-span-5">
-                    <div className="sticky top-0">
-                      <span className=" text-red-600 -left-[47px] absolute rounded-full text-5xl">•</span>
-                      <h3 className="text-xl font-bold text-red-600">Universidad del Valle</h3>
-                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Administración de Empresas</h4>
-                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2021 - 2026</time>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="">
-                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                  <div className="relative pb-12 md:col-span-5">
-                    <div className="sticky top-0">
-                      <span className=" text-green-600 -left-[47px] absolute rounded-full text-5xl">•</span>
-                      <h3 className="text-xl font-bold text-green-600">SENA</h3>
-                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Análisis y Desarrollo de Software</h4>
-                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2023 - 2025</time>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="">
-                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                  <div className="relative pb-12 md:col-span-5">
-                    <div className="sticky top-0">
-                      <span className=" text-purple-600 -left-[47px] absolute rounded-full text-5xl">•</span>
-                      <h3 className="text-xl font-bold text-purple-600">Udemy</h3>
-                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Web Developmet Bootcamp</h4>
-                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Python Avanzado</h4>
-                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2022</time>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="">
-                <div className="relative mx-12 pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                  <div className="relative pb-12 md:col-span-5">
-                    <div className="sticky top-0">
-                      <span className=" text-green-500 -left-[47px] absolute rounded-full text-5xl">•</span>
-                      <h3 className="text-xl font-bold text-green-500">Platzi</h3>
-                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">English Academy</h4>
-                      <h4 className="font-semibold text-xl text-gray-600 dark:text-white">Full Stack Developer</h4>
-                      <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">2024</time>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-          </div>
-          <Image className=" relative top-[16rem]" src="/img/Programming-amico.png" width={300} height={100} />        
-        </div>
-        {/* <div className="flex flex-col items-center md:w-1/2">
-          <h2 className="text-white text-5xl text-center font-bold">Skills</h2>
-          <ol className=" px-10 mt-16">
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:right-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-green-600 -right-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Maxwell Leadership</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">May 2023 - March 2024 (9 months)</time>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:right-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-green-600 -right-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Maxwell Leadership</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">May 2023 - March 2024 (9 months)</time>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li className="">
-              <div className="relative mx-12 pb-12 grid before:absolute before:right-[-35px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-                <div className="relative pb-12 md:col-span-5">
-                  <div className="sticky top-0">
-                    <span className=" text-green-600 -right-[47px] absolute rounded-full text-5xl">•</span>
-                    <h3 className="text-xl font-bold text-green-600">Junior Frontend Developer</h3>
-                    <h4 className="font-semibold text-xl text-gray-600 dark:text-white">@Maxwell Leadership</h4>
-                    <time className="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">May 2023 - March 2024 (9 months)</time>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ol>
-        </div> */}
       </section>
+
+
     </section>
   );
 };

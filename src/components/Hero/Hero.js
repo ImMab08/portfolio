@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section className=' h-screen flex flex-col items-center justify-center   '> 
 
-      <div className=' lg:flex lg:w-full lg:px-36 '>
+      <div className=' lg:flex lg:w-full lg:px-32 '>
 
         <div className='lg:w-1/2 lg:flex lg:flex-col lg:justify-center '>
           <h1 className='text-tertiary text-2xl lg:text-5xl font-bold'>Hey There!</h1>
@@ -40,14 +40,14 @@ const Hero = () => {
             <div className='flex items-center group'>
               <Link className='text-white text-base lg:text-lg font-semibold' href="/about">Learn More</Link>
               <div className="ml-2 transition-transform duration-300 transform group-hover:translate-x-4  ">
-                <Image className='hidden lg:block' src="/img/arrow-right.svg" width={30} height={30} alt="" />
+                <Image className='hidden lg:block' src="/img/arrow-right.svg" width={20} height={20} alt="" />
                 <Image className='lg:hidden' src="/img/arrow-right.svg" width={20} height={20} alt="" />
               </div>
             </div>
           </div>
         </div>
 
-        <div className='hidden  lg:w-1/2 lg:flex items-center justify-center'>
+        <div className='hidden lg:w-1/2 lg:flex items-center justify-center'>
           <Image className='relative' src="/img/picture-franky.png" width={500} height={500} alt="" />
         </div>
 

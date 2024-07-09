@@ -26,7 +26,7 @@ const Navbard = () => {
           </svg>
         </div>
 
-        <div className="flex flex-col justify-center items-center gap-5 text-sm font-medium">
+        <div className="flex flex-col justify-center items-center gap-5 text-sm font-medium font-jetbrains">
           <Link className="text-white text-2xl hover:text-green-500" href="/" onClick={closeMenu}>Home</Link>
           <Link className="text-white text-2xl hover:text-green-500" href="/about" onClick={closeMenu}>About</Link>
           <Link className="text-white text-2xl hover:text-green-500" href="/proyects" onClick={closeMenu}>Proyects</Link>
@@ -34,9 +34,9 @@ const Navbard = () => {
         <div></div>
       </div>
 
-      <header className="w-full bg-primary lg:px-36 lg:py-10 fixed top-0 z-10 ">
+      <header className="w-full bg-primary lg:px-32 lg:py-10 fixed top-0 z-10 ">
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
-          <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
+          <div className="flex items-center space-x-6 text-sm font-medium xl:flex font-jetbrains">
             <FramerMagnetic>
               <Link className="text-white text-lg hover:text-green-500" href="/" onClick={closeMenu}>Home</Link>
             </FramerMagnetic>

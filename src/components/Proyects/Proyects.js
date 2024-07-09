@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import FramerMagnetic from '@/components/FramerMagnetic'
 import { motion } from "framer-motion";
 
 import Image from "next/image";
@@ -21,7 +20,7 @@ export default function Proyects() {
 
   return (
     <section className="h-full  flex flex-col justify-center items-center mx-5">
-      <div className="w-full h-full my-28 grid grid-cols-1 lg:grid-cols-2 place-items-center px-28">
+      <div className="w-full h-full my-28 grid grid-cols-1 lg:grid-cols-2 place-items-center">
         <div className="lg:w-[500px]  flex flex-col justify-center items-center lg:items-start">
           <h1 className="text-white text-4xl lg:text-7xl font-bold">Projects</h1>
           <h1 className="text-white text-4xl lg:text-7xl font-bold">Development</h1>
