@@ -1,10 +1,5 @@
-import Image from "next/image";
-import Hero from "@/components/Hero/Hero";
+import { redirect } from "next/navigation"
 
-export default function Home() {
-  return (
-    <main className="bg-primary">
-      <Hero />
-    </main>
-  );
+export default function RootPage() {
+  redirect('/en')
 }

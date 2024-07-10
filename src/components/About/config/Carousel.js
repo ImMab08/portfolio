@@ -8,7 +8,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="bg-neutral-900 p-5 rounded-md max-w-md h-60 space-y-2 flex flex-col justify-between">
+    <div className="bg-neutral-900 p-5 rounded-md max-w-md h-72 md:h-60 space-y-5 flex flex-col justify-between">
       <div className=" space-y-2">
         <div className='flex justify-between'>
           <div className='flex space-x-2 items-center'>
@@ -29,7 +29,7 @@ const Carousel = ({ items }) => {
         <h4 className="font-semibold text-sm text-gray-600 dark:text-white">{items[currentIndex].title}</h4>
       </div>
 
-      <div className="space-y-5 flex flex-col justify-between">
+      <div className="flex flex-col justify-between">
         <p className="text-sm text-white/60">{items[currentIndex].description}</p>
       </div>
 

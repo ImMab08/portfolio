@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/PageTransition.js", "src/app/layout.js", "src/components/About/About.js", "src/app/about/page.js", "src/components/Hero/Hero.js", "src/app/page.js", "src/components/shared/Navbar/Nav.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/PageTransition.js", "src/app/[locale]/layout.js", "src/components/About/About.js", "src/app/[locale]/about/page.js", "src/components/Hero/Hero.js", "src/app/[locale]/page.js", "src/components/shared/Navbar/Nav.js", "src/middleware.js", "src/i18n.js"],
   "exclude": ["node_modules"]
 }

@@ -1,12 +1,15 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import FramerMagnetic from '@/components/FramerMagnetic'
+import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 
-import { motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import FramerMagnetic from '@/components/FramerMagnetic'
+import LocalSwitcher from './LocalSwitcher'
 
 const Navbard = () => {
+  const t = useTranslations('navbard');
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -27,9 +30,9 @@ const Navbard = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-5 text-sm font-medium font-jetbrains">
-          <Link className="text-white text-2xl hover:text-green-500" href="/" onClick={closeMenu}>Home</Link>
-          <Link className="text-white text-2xl hover:text-green-500" href="/about" onClick={closeMenu}>About</Link>
-          <Link className="text-white text-2xl hover:text-green-500" href="/proyects" onClick={closeMenu}>Proyects</Link>
+          <Link className="text-white text-2xl hover:text-green-500" href="/" onClick={closeMenu}>{t('home')}</Link>
+          <Link className="text-white text-2xl hover:text-green-500" href="/about" onClick={closeMenu}>{t('about')}</Link>
+          <Link className="text-white text-2xl hover:text-green-500" href="/proyects" onClick={closeMenu}>{t('projects')}</Link>
         </div>
         <div></div>
       </div>
@@ -38,28 +41,30 @@ const Navbard = () => {
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex font-jetbrains">
             <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/" onClick={closeMenu}>Home</Link>
+              <Link className="text-white text-lg hover:text-green-500" href="/" onClick={closeMenu}>{t('home')}</Link>
             </FramerMagnetic>
             <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/about" onClick={closeMenu}>About</Link>
+              <Link className="text-white text-lg hover:text-green-500" href="/about" onClick={closeMenu}>{t('about')}</Link>
             </FramerMagnetic>
             <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/proyects" onClick={closeMenu}>Proyects</Link>
+              <Link className="text-white text-lg hover:text-green-500" href="/proyects" onClick={closeMenu}>{t('projects')}</Link>
             </FramerMagnetic>
           </div>
+
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
             <FramerMagnetic>            
               <a className="text-white text-lg" href="https://github.com/ImMab08" onClick={closeMenu} target="_blank">
-                <Image className=" " src="/img/github.svg" width={30} height={30} alt=""/>
+                <Image className=" " src="/img/github.svg" width={25} height={25} alt=""/>
               </a>
             </FramerMagnetic>
             <FramerMagnetic>
               <a className="text-white text-lg" href="https://www.linkedin.com/in/franky-vargas-b59648278/" onClick={closeMenu} target="_blank">
-                <Image className=" " src="/img/linkedin.svg" width={30} height={30} alt="" />
+                <Image className=" " src="/img/linkedin.svg" width={25} height={25} alt="" />
               </a>
             </FramerMagnetic>
-            <a className="text-white text-lg" href="/contact" onClick={closeMenu}></a>
+            <LocalSwitcher />
           </div>
+
         </div>
 
         <div className="flex md:hidden container py-5 items-center justify-between px-5">
