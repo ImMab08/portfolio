@@ -18,9 +18,9 @@ export default function LocalSwitcher() {
   return (
     <label className='border rounded text-white font-medium cursor-pointer'>
       <p className='sr-only'>Change Languaje</p>
-      <select className='bg-transparent py-1 px-2' onChange={onSelectionChange} disabled={isPending}>
-        <option className='text-primary' value='en'>{t("en")}</option>
-        <option className='text-primary' value='es'>{t("es")}</option>
+      <select className='bg-secondary text-sm rounded-lg py-1 px-2 text-white cursor-pointer' onChange={onSelectionChange} disabled={isPending}>
+        <option className='text-white' value='en'>{t("en")}</option>
+        <option className='text-white' value='es'>{t("es")}</option>
       </select>
     </label>
   )
