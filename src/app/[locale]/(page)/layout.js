@@ -15,14 +15,16 @@ export default async function Layout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <NextIntlClientProvider messages={messages}>
-        <main className="h-auto flex flex-col">
-          <div className="">
-            <Navbard />
-          </div>
-          {children}
-        </main>
-      </NextIntlClientProvider>
+      <body className="bg-primary">
+        <NextIntlClientProvider messages={messages}>
+          <main className="h-auto flex flex-col">
+            <div className="">
+              <Navbard />
+            </div>
+            {children}
+          </main>
+        </NextIntlClientProvider>
+      </body>
     </html>
   );
 }

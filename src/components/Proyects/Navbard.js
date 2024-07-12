@@ -21,7 +21,7 @@ export default function NavbardMobile() {
   };
 
   return (
-    <nav className='w-full py-2 px-5 border-b border-white/20'>
+    <nav className='w-full py-5 px-32 border-b border-white/20'>
 
       <div className="flex md:hidden container items-center justify-between">
         <div className="flex items-center font-medium font-jetbrains">

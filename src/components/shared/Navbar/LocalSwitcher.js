@@ -13,7 +13,7 @@ export default function LocaleSwitcher() {
   const butRef = useRef(null);
   
   const openCSS = !isOpen
-    ? "opacity-0 translate-y-2 transition ease duration-300 transform pointer-events-none"
+    ? "opacity-0 -translate-y-2 transition ease duration-300 transform pointer-events-none"
     : "opacity-100 translate-y-0 transition ease duration-300 transform pointer-events-auto";
 
   const onSelectionChange = (nextLocale) => {
@@ -39,7 +39,7 @@ export default function LocaleSwitcher() {
 
   return (
     <button ref={butRef} className="flex bg-transparent border border-white/80 text-white rounded-t-md py-1 px-3 focus:outline-none justify-center items-center relative">
-      <span className="mr-2">{t(locale)}</span>
+      <span className="text-sm mr-2">{t(locale)}</span>
       {isOpen ? (
         <svg width={20} height={20} viewBox="0 0 24 24" fill="none">
           <path d="M17 15L12 10L7 15" stroke="#ffff" strokeWidth="1.5"></path>
@@ -49,7 +49,7 @@ export default function LocaleSwitcher() {
           <path d="M7 10L12 15L17 10" stroke="#ffff" strokeWidth="1.5"></path>
         </svg>
       )}
-      <div className={`bg-primary border border-white/80 shadow-md rounded-b-md text-sm absolute top-8 sm:top-7 right-0 min-w-full w-auto z-30 ${openCSS}`}>
+      <div className={`bg-primary border border-white/80 shadow-md rounded-b-md text-sm absolute top-[29px] sm:top-7 right-0 min-w-full w-auto z-30 ${openCSS}`}>
         <div className="overflow-auto rounded-lg py-2 mr-2">
           <ul className="space-y-2 text-start px-3">
             <li onClick={() => onSelectionChange('en')}>{t('en')}</li>

@@ -111,8 +111,8 @@ export default function IconBgAlmenu(props) {
           fill="white"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M1263.99 44.6195C1242.2 21.0159 1203.43 22.0498 1180.06 44.7271C1156.68 67.4044 1153.39 106.874 1175.33 130.637C1176.95 132.391 1178.59 133.83 1180.22 135.268L1268.23 49.8762C1266.92 48.125 1265.61 46.3738 1263.99 44.6195Z"
           stroke="white"
           stroke-width="2"
@@ -123,8 +123,8 @@ export default function IconBgAlmenu(props) {
           stroke-width="2"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M1269.89 54.3574C1270.78 55.3139 1270.56 56.7332 1269.75 57.5149L1189.35 135.524C1188.38 136.462 1187 136.29 1186.26 135.493L1184.79 133.898C1183.91 132.942 1184.13 131.523 1184.93 130.741L1265.34 52.7323C1266.3 51.7943 1267.69 51.9661 1268.42 52.7632L1269.89 54.3574Z"
           stroke="white"
           stroke-width="2"

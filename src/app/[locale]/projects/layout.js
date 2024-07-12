@@ -30,7 +30,7 @@ export default async function Layout({ children, params }) {
               <div className="w-[25%] h-full overflow-auto hidden sm:block">
                 <Dashboard />
               </div>
-              <div className="flex-grow w-[75%] h-full overflow-auto">
+              <div className="flex-grow sm:w-[75%] h-full overflow-auto">
                 {children}
               </div>
             </div>
