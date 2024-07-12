@@ -47,12 +47,12 @@ export default function Navbard() {
           </svg>
           <LocaleSwitcher />
         </div>
-        <div className='mt-5 space-y-3'>
+        <div className='mt-5 space-y-3 px-2'>
           {Info}
         </div>
       </div>
 
-      <nav className='w-full py-5 px-10 border-b border-white/20 flex justify-between'>
+      <nav className='w-full p-5 border-b border-white/20 flex justify-between'>
         <div className="flex items-center font-medium font-jetbrains">
           <svg width={20} height={20} className='mr-2 mt-[2px]' viewBox="0 0 24 24" fill="none">
             <path d="M10 17L7 14L10 11" className='stroke-white hover:stroke-green-500' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
