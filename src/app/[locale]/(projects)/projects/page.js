@@ -1,10 +1,10 @@
 import React from "react";
-import Contact from "../../../components/Contact/Contact";
+import ProyectsUpdate from "@/components/Proyects/ProjectsUpdate"
 
 export default function page() {
   return (
     <>
-      <Contact />
+      <ProyectsUpdate />
     </>
   );
 }

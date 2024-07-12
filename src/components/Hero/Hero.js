@@ -44,7 +44,7 @@ const Hero = () => {
             <div className='flex items-center group'>
               <Link className='text-white text-base lg:text-lg font-semibold' href="/about">{t('learnMore')}</Link>
               <div className="ml-2 transition-transform duration-300 transform group-hover:translate-x-4  ">
-                <Image className='hidden lg:block' src="/img/arrow-right.svg" width={20} height={20} alt="" />
+                <Image className='hidden lg:block mt-[4px]' src="/img/arrow-right.svg" width={20} height={20} alt="" />
                 <Image className='lg:hidden' src="/img/arrow-right.svg" width={20} height={20} alt="" />
               </div>
             </div>

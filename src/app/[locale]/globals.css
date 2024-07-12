@@ -79,360 +79,44 @@
   }
 }
 
-/* SVG */
-
-:root {
-  --dark-color: #707070;
-  --light-color: #ffff;
+.hero {
+  position: relative;
+  overflow: hidden;
 }
 
-/* #AWS,
-#Azure,
-#GitHub,
-#TypeScript,
-#JavaScript,
-#Python,
-#Angular,
-#Vue,
-#php,
-#NextJS,
-#Cchart,
-#NET,
-#django,
-#Laravel,
-#Tailwind,
-#HTML,
-#Sass,
-#Vite,
-#MySQL,
-#FireBase,
-#PostGreSQL,
-#MongoDB,
-#React,
-#Bootstrap,
-#CSS,
-#Git {
-  stroke: var(--dark-color);
-  transition: all 0.3s ease;
-  cursor: pointer;
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/fondo-almenu.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  z-index: -1;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
 
-#AWS:hover #BG,
-#Azure:hover #BG,
-#GitHub:hover #BG,
-#TypeScript:hover #BG,
-#JavaScript:hover #BG,
-#Python:hover #BG,
-#Angular:hover #BG,
-#Vue:hover #BG,
-#php:hover #BG,
-#NextJS:hover #BG,
-#Cchart:hover #BG,
-#NET:hover #BG,
-#django:hover #BG,
-#Laravel:hover #BG,
-#Tailwind:hover #BG,
-#HTML:hover #BG,
-#Sass:hover #BG,
-#Vite:hover #BG,
-#MySQL:hover #BG,
-#FireBase:hover #BG,
-#PostGreSQL:hover #BG,
-#MongoDB:hover #BG,
-#React:hover #BG,
-#Bootstrap:hover #BG,
-#CSS:hover #BG,
-#Git:hover #BG {
-  fill: var(--light-color);
-  fill-opacity: 0.1;
-} */
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-/* AWS SVG */
-/* #AWS:hover #AWSLogo {
-  fill: #FF9C08;
-  stroke: #FF9C08;
-}
-#AWS:hover #AWSLogo1 {
-  fill: #ffff;
-  stroke: #ffff;
-} */
-
-/* Azure SVG */
-/* #Azure:hover #AzureLogo {
-  fill: #0089D6;
-  stroke: #0089D6;
-} */
-
-/* GitHub SVG */
-/* #GitHub:hover #GitHubLogo {
-  fill: var(--light-color);
-  stroke: var(--light-color);
-} */
-
-/* TypeScript SVG */
-/* #TypeScript:hover #TSName {
-  fill: #2F74C0;
-  stroke: #2F74C0;
-} */
-
-/* JavaScript SVG */
-/* #JavaScript:hover #JSName {
-  fill: #FFD83A;
-  stroke: #FFD83A;
-} */
-
-/* Python SVG */
-/* #Python:hover #pythonDonw {
-  fill: #0075D1;
-  stroke: #0075D1;
-}
-#Python:hover #pythonUp {
-  fill: #FFD83A;
-  stroke: #FFD83A;
-} */
-
-/* Angular SVG */
-/* #Angular:hover #LogoAngular1 {
-  fill: #DD0031;
-  stroke: #DD0031;
-}
-#Angular:hover #LogoAngular2 {
-  fill: #C3002F;
-  stroke: #C3002F;
-}
-#Angular:hover #LogoAngular3 {
-  fill: #ffff;
-  stroke: #fff;
-} */
-
-/* Vue SVG */
-/* #Vue:hover #LogoVue1 {
-  fill: #435466;
-  stroke: #435466;
-}
-#Vue:hover #LogoVue2 {
-  fill: #4DBA87;
-  stroke: #4DBA87;
-} */
-
-/* php SVG */
-/* #php:hover #LogoPhp {
-  fill: #7477B0;
-  stroke: #7477B0;
-} */
-
-/* NextJS SVG */
-/* #NextJS:hover #NextJSLogo {
-  fill: #ffff;
-  stroke: #ffff;
-} */
-
-/* C# SVG */
-/* #Cchart:hover #CLogo1 {
-  fill: #A47DDD;
-  stroke: #A47DDD;
-}
-#Cchart:hover #CLogo2 {
-  fill: #2F086D;
-  stroke: #2F086D;
-}
-#Cchart:hover #CLogo3 {
-  fill: #3F0894;
-  stroke: #3F0894;
-}
-#Cchart:hover #CLogo4 {
-  fill: #ffff;
-  stroke: #ffff;
-}
-#Cchart:hover #CLogo5 {
-  fill: #ffff;
-  stroke: #ffff;
-} */
-
-/* .NET SVG */
-/* #NET:hover #NETLogo {
-  fill: #ffff;
-  stroke: #ffff;
-} */
-
-/* django */
-/* #django:hover #LogoDjango {
-  fill: #00FF9F;
-  stroke: #00FF9F;
-} */
-
-/* Laravel */
-/* #Laravel:hover #LogoLaravel {
-  fill: #FF2D20;
-  stroke: #FF2D20;
-} */
-
-/* Tailwind */
-/* #Tailwind:hover #TailwindLogo {
-  fill: #4FAEB6;
-  stroke: #4FAEB6;
-} */
-
-/* HTML */
-/* #HTML:hover #HTMLLogo1 {
-  fill: #E44F26;
-  stroke: #E44F26;
-}
-#HTML:hover #HTMLLogo2 {
-  fill: #F1662A;
-  stroke: #F1662A;
-}
-#HTML:hover #HTMLLogo3 {
-  fill: #EBEBEB;
-  stroke: #EBEBEB;
-}
-#HTML:hover #HTMLLogo4 {
-  fill: #EBEBEB;
-  stroke: #EBEBEB;
-}
-#HTML:hover #HTMLLogo5 {
-  fill: #ffff;
-  stroke: #ffff;
-}
-#HTML:hover #HTMLLogo6 {
-  fill: #ffff;
-  stroke: #ffff;
-} */
-
-/* Sass */
-/* #Sass:hover #SassLogo {
-  fill: #CD6799;
-  stroke: #CD6799;
-} */
-
-/* Vite */
-/* #Vite:hover #FondoVite {
-  fill: url(#paint0_linear_3_97);
-  stroke: url(#paint0_linear_3_97);
-}
-#Vite:hover #LogoVite {
-  fill: url(#paint1_linear_3_97);
-  stroke: url(#paint1_linear_3_97);
-} */
-
-/* MySQL */
-/* #MySQL:hover #LogoMySQL1 {
-  fill: #5D87A1;
-  stroke: #5D87A1;
-}
-#MySQL:hover #LogoMySQL2 {
-  fill: #F8981D;
-  stroke: #F8981D;
-}
-#MySQL:hover #LogoMySQL3 {
-  fill: #5D87A1;
-  stroke: #5D87A1;
-}
-#MySQL:hover #LogoMySQL4 {
-  fill: #F8981D;
-  stroke: #F8981D;
-} */
-
-/* FireBase */
-/* #FireBase:hover #FireBaseLogo {
-  fill: #FFCD32;
-  stroke: #FFCD32;
-} */
-
-/* PostGreSQL */
-/* #PostGreSQL:hover #LogoPostGreSQL1 {
-  fill: #000;
-  stroke: #000;
-}
-#PostGreSQL:hover #LogoPostGreSQL2 {
-  fill: #336791;
-  stroke: #336791;
-}
-#PostGreSQL:hover #LogoPostGreSQL3 {
-  fill: #FFFF;
-  stroke: #FFFF;
-}
-#PostGreSQL:hover #LogoPostGreSQL4 {
-  fill: #FFFF;
-  stroke: #FFFF;
-}
-#PostGreSQL:hover #LogoPostGreSQL5 {
-  fill: #FFFF;
-  stroke: #FFFF;
-} */
-
-/* MongoDB */
-/* #MongoDB:hover #LogoMongoDBCirculo {
-  fill: #13AA52;
-  stroke: #13AA52;
-}
-#MongoDB:hover #LogoMongoDB {
-  fill: #FFFF;
-  stroke: #FFFF;
-} */
-
-/* React */
-/* #React:hover #LogoReact1 {
-  stroke: #1399C4;
-}
-#React:hover #LogoReact2 {
-  stroke: #1399C4;
-}
-#React:hover #LogoReact3 {
-  stroke: #1399C4;
-}
-#React:hover #LogoReact4 {
-  fill: #1399C4;
-  stroke: #1399C4;
-} */
-
-/* Bootstrap */
-/* #Bootstrap:hover #LogoBootstrap1 {
-  fill: #563D7C;
-  stroke: #563D7C;
-}
-#Bootstrap:hover #LogoBootstrap2 {
-  fill: #ffff;
-  stroke: #ffff;
-} */
-
-/* CSS */
-/* #CSS:hover #CssLogo1 {
-  fill: #1572B6;
-  stroke: #1572B6;
-}
-#CSS:hover #CssLogo2 {
-  fill: #33A9DC;
-  stroke: #33A9DC;
-}
-#CSS:hover #CssLogo3 {
-  fill: #ffff;
-  stroke: #ffff;
-}
-#CSS:hover #CssLogo4 {
-  fill: #EBEBEB;
-  stroke: #EBEBEB;
-}
-#CSS:hover #CssLogo5 {
-  fill: #ffff;
-  stroke: #ffff;
-}
-#CSS:hover #CssLogo6 {
-  fill: #EBEBEB;
-  stroke: #EBEBEB;
-}
-#CSS:hover #CssLogo7 {
-  fill: #EBEBEB;
-  stroke: #EBEBEB;
-} */
-
-/* CSS */
-/* #Git:hover #LogoGit1 {
-  fill: #EE513B;
-  stroke: #EE513B;
-}
-#Git:hover #LogoGit2 {
-  fill: #FFF;
-  stroke: #FFF;
-} */

@@ -5,6 +5,10 @@
     "projects": "Proyectos"
   },
 
+  "navbardProjects": {
+    "back": "Volver atrás"
+  },
+
   "localSwitcher": {
     "en": "Inglés",
     "es": "Español"
@@ -75,7 +79,34 @@
       "certification": "Cetificación",
       "date": "2018 - 2023"
     },
-
     "programming": "Lenguajes de Programación"
+  },
+
+  "projects": {
+    "dashboard": {
+      "title" : "Selecciona un proyecto"
+    },
+    "navMobile": {
+      "back": "Volver atrás"
+    },
+    "almenu": {
+      "title": "Almenú",
+      "description": "Aplicación web para la gestión de restaurantes."
+    },
+    "univalleapp": {
+      "title": "Univalle App",
+      "description": "Aplicación web y mobile para la optimización de procesos en la Universidad del Valle."
+    },
+    "todosapp": {
+      "title": "ToDo's App",
+      "description": "Aplicación web para la gestión de notas y tareas."
+    },
+    "onpixel": {
+      "title": "onePixel",
+      "description": "Landing page estatica."
+    },
+    "hero": {
+      "title": "Selecciona un proyecto para conocer como fue trabajado."
+    }
   }
 }

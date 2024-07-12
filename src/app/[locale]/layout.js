@@ -2,8 +2,6 @@ import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
 
-import Navbard from '@/components/shared/Navbar/Nav';
-
 const inter = Inter({ subsets: ["latin"] });
 import "./globals.css";
 
@@ -20,17 +18,13 @@ export async function generateStaticParams() {
 
 export default async function RootLayout({ children, params }) {
   const { locale } = params;
-  console.log('Renderizando RootLayout con locale:', locale);
-
   unstable_setRequestLocale(locale);
-
   const messages = await getMessages(locale);
 
   return (
     <html lang={locale}>
       <body className={`bg-primary ${inter.className}`}>
         <NextIntlClientProvider messages={messages}>
-          <Navbard />
           {children}
         </NextIntlClientProvider>
       </body>

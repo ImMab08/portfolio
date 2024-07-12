@@ -5,6 +5,10 @@
     "projects": "Projects"
   },
 
+  "navbardProjects": {
+    "back": "Go to back"
+  },
+
   "localSwitcher": {
     "en": "English",
     "es": "Spanish"
@@ -78,5 +82,33 @@
     },
 
     "programming": "Programming Languajes"
+  },
+
+  "projects": {
+    "dashboard": {
+      "title" : "Select a project"
+    },
+    "navMobile": {
+      "back": "Go to back"
+    },
+    "almenu": {
+      "title": "Almenú",
+      "description": "Web application for restaurant management."
+    },
+    "univalleapp": {
+      "title": "Univalle App",
+      "description": "Web and mobile application for process optimization at Universidad del Valle."
+    },
+    "todosapp": {
+      "title": "ToDo's App",
+      "description": "Web application for the management of notes and tasks."
+    },
+    "onpixel": {
+      "title": "onePixel",
+      "description": "Static landing page."
+    },
+    "hero": {
+      "title": "Select a project to see how it was worked on."
+    }
   }
 }
