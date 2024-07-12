@@ -17,7 +17,7 @@ export default async function Layout({ children, params }) {
 
   return (
     <html lang={locale}>
-      <body className="className='h-screen flex flex-col">
+      <body className="bg-primary h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <div className="hidden sm:block flex-shrink-0">
             <Navbard />
