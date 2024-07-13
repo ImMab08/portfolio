@@ -10,7 +10,7 @@ export default function Dashboard() {
 
   const projects = info.map(({id, link, img}) => {
     return(
-      <Link key={id} className='relative group flex space-x-2 p-2 border border-white/40 rounded-lg cursor-pointer hover:border-green-500' href={link}>
+      <Link key={id} className='relative group flex space-x-2 p-2 border border-white/40 rounded-lg cursor-pointer hover:border-secondary' href={link}>
         <div className='w-[150px] h-auto flex-shrink-0'>
           <Image width={250} height={150} className='object-cover rounded-sm' src={img} alt='' />
         </div>

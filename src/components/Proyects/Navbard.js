@@ -26,8 +26,8 @@ export default function NavbardMobile() {
       <div className="flex md:hidden container items-center justify-between">
         <div className="flex items-center font-medium font-jetbrains">
           <svg width={20} height={20} className='mr-2 mt-[2px]' viewBox="0 0 24 24" fill="none">
-            <path d="M10 17L7 14L10 11" className='stroke-white hover:stroke-green-500' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-            <path d="M8 14L13.5 14C15.433 14 17 12.433 17 10.5V10.5C17 8.567 15.433 7 13.5 7L12 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='stroke-white hover:stroke-green-500'></path>
+            <path d="M10 17L7 14L10 11" className='stroke-white ' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+            <path d="M8 14L13.5 14C15.433 14 17 12.433 17 10.5V10.5C17 8.567 15.433 7 13.5 7L12 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='stroke-white '></path>
           </svg>
           <Link className="text-white text-md hover:underline" href="/" onClick={closeMenu}>{t('back')}</Link>
         </div>
@@ -42,8 +42,8 @@ export default function NavbardMobile() {
       <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
         <div className="flex items-center text-sm font-medium font-jetbrains">
           <svg width={24} height={24} viewBox="0 0 24 24" fill="none">
-            <path d="M10 17L7 14L10 11" className='stroke-white hover:stroke-green-500' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-            <path d="M8 14L13.5 14C15.433 14 17 12.433 17 10.5V10.5C17 8.567 15.433 7 13.5 7L12 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='stroke-white hover:stroke-green-500'></path>
+            <path d="M10 17L7 14L10 11" className='stroke-white ' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+            <path d="M8 14L13.5 14C15.433 14 17 12.433 17 10.5V10.5C17 8.567 15.433 7 13.5 7L12 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='stroke-white '></path>
           </svg>
           <Link className="text-white text-lg hover:underline" href="/" onClick={closeMenu}>{t('back')}</Link>
         </div>

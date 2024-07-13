@@ -10,8 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#0f0f0f",
-        secondary: "#272727",
-        tertiary: "#ffff",
+        secondary: "#00bb01",
+        tertiary: "#272727",
       },
       boxShadow: {
         '3xl': '5px 5px 60px 5px rgba(100, 100, 100, 0.3)',

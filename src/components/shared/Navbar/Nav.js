@@ -30,9 +30,9 @@ const Navbard = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center gap-5 text-sm font-medium font-jetbrains">
-          <Link className="text-white text-xl hover:text-green-500" href="/" onClick={closeMenu}>{t('home')}</Link>
-          <Link className="text-white text-xl hover:text-green-500" href="/about" onClick={closeMenu}>{t('about')}</Link>
-          <Link className="text-white text-xl hover:text-green-500" href="/projects" onClick={closeMenu}>{t('projects')}</Link>
+          <Link className="text-white text-xl hover:text-secondary" href="/" onClick={closeMenu}>{t('home')}</Link>
+          <Link className="text-white text-xl hover:text-secondary" href="/about" onClick={closeMenu}>{t('about')}</Link>
+          <Link className="text-white text-xl hover:text-secondary" href="/projects" onClick={closeMenu}>{t('projects')}</Link>
         </div>
         <div></div>
       </div>
@@ -41,13 +41,13 @@ const Navbard = () => {
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex font-jetbrains">
             <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/" onClick={closeMenu}>{t('home')}</Link>
+              <Link className="text-white text-lg hover:text-secondary" href="/" onClick={closeMenu}>{t('home')}</Link>
             </FramerMagnetic>
             <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/about" onClick={closeMenu}>{t('about')}</Link>
+              <Link className="text-white text-lg hover:text-secondary" href="/about" onClick={closeMenu}>{t('about')}</Link>
             </FramerMagnetic>
             <FramerMagnetic>
-              <Link className="text-white text-lg hover:text-green-500" href="/projects" onClick={closeMenu}>{t('projects')}</Link>
+              <Link className="text-white text-lg hover:text-secondary" href="/projects" onClick={closeMenu}>{t('projects')}</Link>
             </FramerMagnetic>
           </div>
 
