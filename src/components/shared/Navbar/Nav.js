@@ -23,10 +23,22 @@ const Navbard = () => {
   return (
     <>
       <div className={`menu ${menuOpen ? "open" : ""}`}>
-        <div className="menu-container p-5">
-          <svg className="close-menu" onClick={closeMenu} width="20px" height="20px" viewBox="0 0 1024.00 1024.00" fill="#ffffff" stroke="#ffffff">
+        <div className="menu-container p-5 flex items-center">
+          <svg className="close-menu" onClick={closeMenu} width="24px" height="24px" viewBox="0 0 1024.00 1024.00" fill="#ffffff" stroke="#ffffff">
             <path fill="#ffffff" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"></path>
           </svg>
+          <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
+            <FramerMagnetic>            
+              <a className="text-white text-lg" href="https://github.com/ImMab08" onClick={closeMenu} target="_blank">
+                <Image className=" " src="/img/github.svg" width={25} height={25} alt=""/>
+              </a>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <a className="text-white text-lg" href="https://www.linkedin.com/in/franky-vargas-b59648278/" onClick={closeMenu} target="_blank">
+                <Image className=" " src="/img/linkedin.svg" width={25} height={25} alt="" />
+              </a>
+            </FramerMagnetic>
+          </div>
         </div>
 
         <div className="flex flex-col justify-center items-center gap-5 text-sm font-medium font-jetbrains">
@@ -64,7 +76,6 @@ const Navbard = () => {
             </FramerMagnetic>
             <LocalSwitcher />
           </div>
-
         </div>
 
         <div className="flex md:hidden container p-5 items-center justify-between">
