@@ -35,7 +35,7 @@ const Hero = () => {
           <div className='flex items-center mt-5 lg:mt-14'>            
             <a download="" href="/HVFrankyHelyVargasLopez.pdf" target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold">{t('cv')}
               <div className="w-[20px]">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="w-full h-auto ml-1">
+                <svg width="24" height="24" viewBox="0 0 24 24" className="w-full h-auto ml-1">
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"></path>
                 </svg>

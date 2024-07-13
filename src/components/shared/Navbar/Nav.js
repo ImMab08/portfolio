@@ -49,7 +49,7 @@ const Navbard = () => {
         <div></div>
       </div>
 
-      <header className="w-full bg-primary lg:px-32 lg:py-5 fixed top-0 z-10 ">
+      <header className="w-full bg-primary lg:px-32 lg:py-5 fixed top-0 z-50 ">
         <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex font-jetbrains">
             <FramerMagnetic>
