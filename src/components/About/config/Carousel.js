@@ -8,7 +8,7 @@ const Carousel = ({ items }) => {
   };
 
   return (
-    <div className="bg-neutral-900 p-5 rounded-md w-full h-72 md:h-60 space-y-5 flex flex-col justify-between">
+    <div className="bg-neutral-900 p-5 rounded-md w-full h-72 md:h-60 space-y-5 border-2 border-white/10 flex flex-col justify-between">
       <div className=" space-y-2">
         <div className='flex justify-between'>
           <div className='flex space-x-2 items-center'>

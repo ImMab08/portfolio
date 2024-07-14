@@ -1,6 +1,5 @@
 'use client'
 import React from "react";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { carouselData } from './config/index'
@@ -18,45 +17,77 @@ const About = () => {
         <div className="flex flex-col lg:w-[58%] space-y-5 lg:space-y-10">
           <h1 className="text-white text-3xl lg:text-5xl text-center font-bold">
             {t('title')}
-            <span className="text-green-600"> {t("spanTitle")}</span>
+            <span className="text-secondary"> {t("spanTitle")} </span> 
+            {t('secondTitle')}
           </h1>
           <p className="text-white text-sm lg:text-base text-center font-normal">{t('description')}</p>
         </div>
       </section>
 
-      <section className="w-full h-auto lg:h-screen lg:flex lg:space-x-10 mb-32">
+      <section className="w-full h-auto lg:h-full lg:flex lg:space-x-10 mb-32">
 
-        <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[47rem] lg:top-[39rem] left-[7rem] lg:left-[19rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
+        <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[47rem] lg:top-[39rem] left-[7.3rem] lg:left-[19rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
           <svg className="mt-4 w-[35px] lg:w-[50px] h-[35px] lg:h-[50px]" viewBox="0 0 24 24" fill="none">
             <path d="M7 8L3 11.6923L7 16M17 8L21 11.6923L17 16M14 4L10 20" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
-        <div className="relative z-10 bg-neutral-900 lg:w-1/2 container px-10 py-8 rounded-xl space-y-10">
+
+        <div className="relative z-10 bg-neutral-900 lg:w-1/2 h-full container px-10 py-8 rounded-xl space-y-10">
           <h2 className="text-3xl text-center font-bold text-white font-jetbrains">{t('experience')}</h2>
-            <div className="relative grid before:absolute before:left-[-20px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-1">
-              <div className="relative pb-5 md:col-span-2">
-                <div className="sticky top-0">
-                  <span className=" text-green-600 -left-[29px] absolute rounded-full text-5xl">•</span>
-                  <h3 className="text-lg font-bold text-green-600">{t('firstJob.title')}</h3>
-                  <h4 className="font-semibold text-lg leading-none text-gray-600 dark:text-white">{t('firstJob.company')}</h4>
-                  <time className="p-0 m-0 text-xs leading-none text-gray-600/80 dark:text-white/80">{t('firstJob.date')}</time>
-                </div>
-              </div>
-              <div className="relative flex flex-col gap-2 md:col-span-3">
-                <p className=" text-gray-600 dark:text-gray-300">{t('firstJob.firstDescription')}</p>
-                <p className=" text-gray-600 dark:text-gray-300">{t('firstJob.secondDescription')}</p>
+          <div className="relative grid before:absolute before:left-[-20px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-1">
+            <div className="relative pb-5 md:col-span-2">
+              <div className="sticky top-0">
+                <span className=" text-secondary -left-[29px] absolute rounded-full text-5xl">•</span>
+                <h3 className="text-lg font-bold text-secondary">{t('firstJob.title')}</h3>
+                <h4 className="font-semibold text-lg leading-none text-gray-600 dark:text-white">{t('firstJob.company')}</h4>
+                <time className="p-0 m-0 text-xs leading-none text-gray-600/80 dark:text-white/80">{t('firstJob.date')}</time>
               </div>
             </div>
+            <div className="relative flex flex-col gap-2 md:col-span-3">
+              <p className=" text-gray-600 dark:text-gray-300">{t('firstJob.firstDescription')}</p>
+              <p className=" text-gray-600 dark:text-gray-300">{t('firstJob.secondDescription')}</p>
+            </div>
+          </div>
+          
+          <div className="relative grid before:absolute before:left-[-20px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-1">
+            <div className="relative pb-5 md:col-span-2">
+              <div className="sticky top-0">
+                <span className=" text-secondary -left-[29px] absolute rounded-full text-5xl">•</span>
+                <h3 className="text-lg font-bold text-secondary">{t('secondJob.title')}</h3>
+                <h4 className="font-semibold text-lg leading-none text-gray-600 dark:text-white">{t('secondJob.company')}</h4>
+                <time className="p-0 m-0 text-xs leading-none text-gray-600/80 dark:text-white/80">{t('secondJob.date')}</time>
+              </div>
+            </div>
+            <div className="relative flex flex-col gap-2 md:col-span-3">
+              <p className=" text-gray-600 dark:text-gray-300">{t('secondJob.firstDescription')}</p>
+              <p className=" text-gray-600 dark:text-gray-300">{t('secondJob.secondDescription')}</p>
+            </div>
+          </div>
+
+          <div className="relative grid before:absolute before:left-[-20px] before:block before:h-full before:border-l-2 before:border-black/20 dark:before:border-white/15 before:content-[''] md:grid-cols-1">
+            <div className="relative pb-5 md:col-span-2">
+              <div className="sticky top-0">
+                <span className=" text-secondary -left-[29px] absolute rounded-full text-5xl">•</span>
+                <h3 className="text-lg font-bold text-secondary">{t('thirdJob.title')}</h3>
+                <h4 className="font-semibold text-lg leading-none text-gray-600 dark:text-white">{t('thirdJob.company')}</h4>
+                <time className="p-0 m-0 text-xs leading-none text-gray-600/80 dark:text-white/80">{t('thirdJob.date')}</time>
+              </div>
+            </div>
+            <div className="relative flex flex-col gap-2 md:col-span-3">
+              <p className=" text-gray-600 dark:text-gray-300">{t('thirdJob.firstDescription')}</p>
+              <p className=" text-gray-600 dark:text-gray-300">{t('thirdJob.secondDescription')}</p>
+              <p className=" text-gray-600 dark:text-gray-300">{t('thirdJob.thirdDescription')}</p>
+            </div>
+          </div>
         </div>
 
-        <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[93rem] lg:top-[39rem] right-[7.5rem] lg:right-[16.5rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
+        <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[152rem] lg:top-[39rem] right-[7.3rem] lg:right-[16.5rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
           <svg className="mt-4 w-[35px] lg:w-[50px] h-[35px] lg:h-[50px]" viewBox="0 0 24 24" fill="#ffff">
             <path d="M17.673 5.606a3326.02 3326.02 0 0 1-5.671-2.674L.138 8.524l2.03.98L2 9.531V20h1v-9.626l.72-.124.28.135v5.288c0 .914 5.206 3.533 6.249 4.049a3.89 3.89 0 0 0 3.48-.026C20 16.486 20 15.895 20 15.673v-5.288l3.854-1.857s-3.8-1.801-6.181-2.922zM19 15.504a51.526 51.526 0 0 1-5.726 3.302 2.884 2.884 0 0 1-2.582.02A40.184 40.184 0 0 1 5 15.521v-4.655l7 3.373 7-3.373zm-7-2.373L5.416 9.958l6.469-1.115-.17-.987-7.85 1.354-1.403-.676 9.537-4.495c.825.393 8.523 4.014 9.542 4.494z"></path>
             <path fill="none" d="M0 0h24v24H0z"></path>
           </svg>
         </div>
-
-        <div className="mt-48 lg:mt-0 bg-neutral-900 lg:w-1/2 container px-5 lg:px-10 py-8 rounded-xl space-y-10 relative z-10">
+        <div className="mt-40 lg:mt-0 bg-neutral-900 lg:w-1/2 h-auto container px-5 lg:px-10 py-8 rounded-xl space-y-10 relative z-10">
           <h2 className="text-3xl text-center font-bold text-white font-jetbrains">{t('education')}</h2>
 
           <div className="bg-neutral-900 p-5 rounded-md w-full space-y-5 border-2 border-white/10">
@@ -80,7 +111,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="bg-neutral-900 p-5 rounded-md w-full space-y-5">
+          <div className="bg-neutral-900 p-5 rounded-md w-full space-y-5 border-2 border-white/10">
             <div className="space-y-2">
               <div className="flex space-x-2 items-center">
                 <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,18 +135,7 @@ const About = () => {
           ))}
         </div>
 
-      </section>
-      
-      {/* <section className="flex h-full w-full items-center justify-center mt-[2rem]">
-        <div className="flex flex-col items-center">
-          <h1 className="text-white text-4xl lg:text-5xl text-center mb-10 font-bold font-jetbrains">{t("programming")}</h1>
-          <div className="p-5 w-full h-full max-w-[500px] md:max-w-none md:w-[800px]">
-
-          </div>
-        </div>
-      </section> */}
-
-
+      </section>      
     </section>
   );
 };

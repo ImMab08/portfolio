@@ -22,8 +22,9 @@
   },
 
   "about": {
-    "title": "Transforming ideas into exceptional digital solutions",
-    "spanTitle": "",
+    "title": "Transforming ideas into",
+    "secondTitle": "digital solutions",
+    "spanTitle": "exceptional",
     "description": "Unifying creativity with code to bring ideas to digital realities. Im passionate about creating immersive web experiences that captivate and inspire. Explore my portfolio and witness the perfect blend of innovation and technical expertise in each project.",
 
     "experience": "Experience",
