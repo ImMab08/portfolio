@@ -30,12 +30,12 @@ const Navbard = () => {
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
             <FramerMagnetic>            
               <a className="text-white text-lg" href="https://github.com/ImMab08" onClick={closeMenu} target="_blank">
-                <Image className=" " src="/img/github.svg" width={25} height={25} alt=""/>
+                <Image className=" " src="/img/github.svg" width={24} height={24} alt=""/>
               </a>
             </FramerMagnetic>
             <FramerMagnetic>
               <a className="text-white text-lg" href="https://www.linkedin.com/in/franky-vargas-b59648278/" onClick={closeMenu} target="_blank">
-                <Image className=" " src="/img/linkedin.svg" width={25} height={25} alt="" />
+                <Image className=" " src="/img/linkedin.svg" width={24} height={24} alt="" />
               </a>
             </FramerMagnetic>
           </div>
@@ -66,12 +66,12 @@ const Navbard = () => {
           <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
             <FramerMagnetic>            
               <a className="text-white text-lg" href="https://github.com/ImMab08" onClick={closeMenu} target="_blank">
-                <Image className=" " src="/img/github.svg" width={25} height={25} alt=""/>
+                <Image className=" " src="/img/github.svg" width={23} height={23} alt=""/>
               </a>
             </FramerMagnetic>
             <FramerMagnetic>
               <a className="text-white text-lg" href="https://www.linkedin.com/in/franky-vargas-b59648278/" onClick={closeMenu} target="_blank">
-                <Image className=" " src="/img/linkedin.svg" width={25} height={25} alt="" />
+                <Image className=" " src="/img/linkedin.svg" width={23} height={23} alt="" />
               </a>
             </FramerMagnetic>
             <LocalSwitcher />

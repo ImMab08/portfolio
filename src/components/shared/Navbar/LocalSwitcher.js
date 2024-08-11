@@ -39,21 +39,21 @@ export default function LocaleSwitcher() {
 
   return (
     <button ref={butRef} className="flex bg-transparent border border-white/80 text-white rounded-t-md py-1 px-3 focus:outline-none justify-center items-center relative">
-      <span className="text-sm mr-2">{t(locale)}</span>
+      <span className="text-xs mr-2">{t(locale)}</span>
       {isOpen ? (
-        <svg width={20} height={20} viewBox="0 0 24 24" fill="none">
+        <svg width={16} height={16} viewBox="0 0 24 24" fill="none">
           <path d="M17 15L12 10L7 15" stroke="#ffff" strokeWidth="1.5"></path>
         </svg>
       ) : (
-        <svg width={20} height={20} viewBox="0 0 24 24" fill="none">
+        <svg width={16} height={16} viewBox="0 0 24 24" fill="none">
           <path d="M7 10L12 15L17 10" stroke="#ffff" strokeWidth="1.5"></path>
         </svg>
       )}
-      <div className={`bg-primary border border-white/80 shadow-md rounded-b-md text-sm absolute top-[29px] sm:top-7 right-0 min-w-full w-auto z-30 ${openCSS}`}>
-        <div className="overflow-auto rounded-lg py-2 mr-2">
-          <ul className="space-y-2 text-start px-3">
-            <li onClick={() => onSelectionChange('en')}>{t('en')}</li>
-            <li onClick={() => onSelectionChange('es')}>{t('es')}</li>
+      <div className={`bg-primary border border-white/80 shadow-md rounded-b-md text-sm absolute top-[27px] sm:top-6 right-0 min-w-full w-auto z-30 ${openCSS}`}>
+        <div className="overflow-auto py-2">
+          <ul className="space-y-1 text-start ">
+            <li className='text-xs hover:bg-white/40 px-3 py-1' onClick={() => onSelectionChange('en')}>{t('en')}</li>
+            <li className='text-xs hover:bg-white/40 px-3 py-1' onClick={() => onSelectionChange('es')}>{t('es')}</li>
           </ul>
         </div>
       </div>
