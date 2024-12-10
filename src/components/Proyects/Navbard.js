@@ -1,10 +1,11 @@
 'use client'
 import Link from 'next/link'
-import Image from 'next/image'
 import React, { useState } from 'react'
 import { useTranslations } from "next-intl";
 
-import LocaleSwitcher from '../shared/Navbar/LocalSwitcher';
+import { IconCloseMenu, IconArrowBack, IconGithub, IconLinkedin } from '@/Icons'
+
+import LocaleSwitcher from '@/components/shared/Navbar/LocalSwitcher';
 import FramerMagnetic from '@/components/FramerMagnetic'
 
 export default function NavbardMobile() {
@@ -25,10 +26,7 @@ export default function NavbardMobile() {
 
       <div className="flex md:hidden container items-center justify-between">
         <div className="flex items-center font-medium font-jetbrains">
-          <svg width={20} height={20} className='mr-2 mt-[2px]' viewBox="0 0 24 24" fill="none">
-            <path d="M10 17L7 14L10 11" className='stroke-white ' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-            <path d="M8 14L13.5 14C15.433 14 17 12.433 17 10.5V10.5C17 8.567 15.433 7 13.5 7L12 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='stroke-white '></path>
-          </svg>
+          <IconCloseMenu width />
           <Link className="text-white text-md hover:underline" href="/" onClick={closeMenu}>{t('back')}</Link>
         </div>
 
@@ -40,23 +38,20 @@ export default function NavbardMobile() {
       </div>
 
       <div className="hidden md:flex container items-center justify-between max-w-[88rem] mx-auto">
-        <div className="flex items-center text-sm font-medium font-jetbrains">
-          <svg width={24} height={24} viewBox="0 0 24 24" fill="none">
-            <path d="M10 17L7 14L10 11" className='stroke-white ' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-            <path d="M8 14L13.5 14C15.433 14 17 12.433 17 10.5V10.5C17 8.567 15.433 7 13.5 7L12 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className='stroke-white '></path>
-          </svg>
+        <div className="flex items-center text-sm font-medium space-x-2">
+          <IconArrowBack width={24} height={24} />
           <Link className="text-white text-lg hover:underline" href="/" onClick={closeMenu}>{t('back')}</Link>
         </div>
         
         <div className="flex items-center space-x-6 text-sm font-medium xl:flex">
           <FramerMagnetic>            
             <a className="text-white text-lg" href="https://github.com/ImMab08" onClick={closeMenu} target="_blank">
-              <Image className=" " src="/img/github.svg" width={25} height={25} alt=""/>
+              <IconGithub width={24} height={24} />
             </a>
           </FramerMagnetic>
           <FramerMagnetic>
             <a className="text-white text-lg" href="https://www.linkedin.com/in/franky-vargas-b59648278/" onClick={closeMenu} target="_blank">
-              <Image className=" " src="/img/linkedin.svg" width={25} height={25} alt="" />
+              <IconLinkedin width={24} height={24} />
             </a>
           </FramerMagnetic>
           <LocaleSwitcher />
