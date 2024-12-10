@@ -8,7 +8,7 @@ export const pathnames = {
   '/': '/',
   '/about': {
     en: "/about",
-    es: "/sobre-nosotros"
+    es: "/sobre-mi"
   },
   '/projects': {
     en: "/projects",

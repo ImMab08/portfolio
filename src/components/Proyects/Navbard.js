@@ -3,10 +3,10 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { useTranslations } from "next-intl";
 
-import { IconCloseMenu, IconArrowBack, IconGithub, IconLinkedin } from '@/Icons'
+import { IconCloseMenu, IconArrowBack, IconGithub, IconLinkedin } from '@/icons'
 
 import LocaleSwitcher from '@/components/shared/Navbar/LocalSwitcher';
-import FramerMagnetic from '@/components/FramerMagnetic'
+import FramerMagnetic from '@/utils/FramerMagnetic'
 
 export default function NavbardMobile() {
   const t = useTranslations('navbardProjects');

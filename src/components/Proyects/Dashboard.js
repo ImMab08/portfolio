@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import { info } from './config/info'
 import { useTranslations } from 'next-intl'
+import { IconArrowRight } from '@/icons'
 
 export default function Dashboard() {
   const t = useTranslations('projects')
@@ -19,8 +20,8 @@ export default function Dashboard() {
           <p className='text-white/50 font-normal text-sm'>{t(`${id}.description`)}</p>
         </div>
         <div className='absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg cursor-pointer'>
-          <span className='text-white font-bold'>View more</span>
-          <Image className='hidden lg:block mt-[5.5px] ml-1' src="/img/arrow-right.svg" width={15} height={15} alt="" />
+          <span className='text-white font-bold'>{t('viewmore')}</span>
+          <IconArrowRight width={24} height={24} className='hidden lg:block mt-1 ml-1' />
         </div>
       </Link>
     )

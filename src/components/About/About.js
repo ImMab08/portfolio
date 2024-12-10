@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 
 import { carouselData } from './config/index'
 import Carousel from './config/Carousel'
+import { IconCode, IconEducation } from "@/icons";
 
 const About = () => {
   const t = useTranslations("about");
@@ -13,7 +14,6 @@ const About = () => {
       <svg className="absolute opacity-80 inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true"><defs><pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse"><path d="M.5 200V.5H200" fill="none"></path></pattern></defs><svg x="50%" y="-1" className="overflow-visible fill-green-800/10"><path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" strokeWidth="0"></path></svg><rect width="100%" height="100%" strokeWidth="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)"></rect></svg>
 
       <section className="h-screen flex justify-center items-center relative">
-
         <div className="flex flex-col lg:w-[58%] space-y-5 lg:space-y-10">
           <h1 className="text-white text-3xl lg:text-5xl text-center font-bold">
             {t('title')}
@@ -25,11 +25,8 @@ const About = () => {
       </section>
 
       <section className="w-full h-auto lg:h-full lg:flex lg:space-x-10 mb-32">
-
         <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[47rem] lg:top-[39rem] left-[7.3rem] lg:left-[19rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
-          <svg className="mt-4 w-[35px] lg:w-[50px] h-[35px] lg:h-[50px]" viewBox="0 0 24 24" fill="none">
-            <path d="M7 8L3 11.6923L7 16M17 8L21 11.6923L17 16M14 4L10 20" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
+          <IconCode width={42} height={42} className="mt-4"/>
         </div>
 
         <div className="relative z-10 bg-neutral-900 lg:w-1/2 h-full container px-10 py-8 rounded-xl space-y-10">
@@ -82,10 +79,7 @@ const About = () => {
         </div>
 
         <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[152rem] lg:top-[39rem] right-[7.3rem] lg:right-[16.5rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
-          <svg className="mt-4 w-[35px] lg:w-[50px] h-[35px] lg:h-[50px]" viewBox="0 0 24 24" fill="#ffff">
-            <path d="M17.673 5.606a3326.02 3326.02 0 0 1-5.671-2.674L.138 8.524l2.03.98L2 9.531V20h1v-9.626l.72-.124.28.135v5.288c0 .914 5.206 3.533 6.249 4.049a3.89 3.89 0 0 0 3.48-.026C20 16.486 20 15.895 20 15.673v-5.288l3.854-1.857s-3.8-1.801-6.181-2.922zM19 15.504a51.526 51.526 0 0 1-5.726 3.302 2.884 2.884 0 0 1-2.582.02A40.184 40.184 0 0 1 5 15.521v-4.655l7 3.373 7-3.373zm-7-2.373L5.416 9.958l6.469-1.115-.17-.987-7.85 1.354-1.403-.676 9.537-4.495c.825.393 8.523 4.014 9.542 4.494z"></path>
-            <path fill="none" d="M0 0h24v24H0z"></path>
-          </svg>
+          <IconEducation width={42} height={42} className="mt-4"/>
         </div>
         <div className="mt-40 lg:mt-0 bg-neutral-900 lg:w-1/2 h-auto container px-5 lg:px-10 py-8 rounded-xl space-y-10 relative z-10">
           <h2 className="text-3xl text-center font-bold text-white font-jetbrains">{t('education')}</h2>

@@ -84,6 +84,7 @@
   },
 
   "projects": {
+    "viewmore": "Ver más",
     "dashboard": {
       "title" : "Selecciona un proyecto"
     },

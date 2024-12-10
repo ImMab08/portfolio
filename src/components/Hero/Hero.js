@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion'; 
 import { useTranslations } from 'next-intl';
 import { useTypewriter } from 'react-simple-typewriter';
-import { IconDownload, IconArrowRight } from '@/Icons';
+import { IconDownload, IconArrowRight } from '@/icons';
 
 const Hero = () => {
 

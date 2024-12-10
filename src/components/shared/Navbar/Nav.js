@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 
 import LocalSwitcher from './LocalSwitcher'
-import FramerMagnetic from '@/components/FramerMagnetic'
+import FramerMagnetic from '@/utils/FramerMagnetic'
 
-import { IconBarsMenu, IconCloseMenu, IconGithub, IconLinkedin } from '@/Icons'
+import { IconBarsMenu, IconCloseMenu, IconGithub, IconLinkedin } from '@/icons'
 
 const Navbard = () => {
   const t = useTranslations('navbard');

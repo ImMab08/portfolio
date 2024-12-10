@@ -1,9 +1,11 @@
-export default function IconBgAlmenu(props) {
+export default function IconBackgroundAlmenu({ width, height, ...props }) {
   return (
     <svg
       {...props}
-      width="1980"
-      height="720"
+      // width="1980"
+      // height="720"
+      width={width}
+      height={height}
       viewBox="0 0 1980 720"
       fill="none"
     >
