@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import { info } from './config/info'
 import { useTranslations } from 'next-intl'
-import { IconArrowRight } from '@/icons'
+import { IconArrowRight } from '../../icons'
 
 export default function Dashboard() {
   const t = useTranslations('projects')
