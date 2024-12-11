@@ -26,30 +26,25 @@
     "secondTitle": "digital solutions",
     "spanTitle": "exceptional",
     "description": "Unifying creativity with code to bring ideas to digital realities. Im passionate about creating immersive web experiences that captivate and inspire. Explore my portfolio and witness the perfect blend of innovation and technical expertise in each project.",
-
     "experience": "Experience",
+
     "firstJob": {
-      "title": "Junior Frontend Developer",
-      "company": "@Maxwell Leadership",
-      "date": "December 2023 - March 2024 (3 months)",
-      "firstDescription": "Built Landing Pages from Scratch: Developed landing pages from mockups, ensuring a seamless transition from design to implementation.",
-      "secondDescription": "Custom Plugins for API Queries: Created personalized plugins for querying data through a REST API, enhancing data retrieval and integration capabilities."
-    },
-    "secondJob": {
-      "title": "Junior Frontend Developer",
+      "title": "Junior Developer - Support and Solutions for LMS Platforms",
       "company": "@Klazia",
       "date": "August 2023 - December 2024 (4 months)",
-      "firstDescription": "Enhance custom components for different platforms built for students, parents, super admin, content manager, advisors, affiliates and teachers. Improve readability and functionality, through refactoring the legacy project architecture.",
-      "secondDescription": "Build a chat system for our students and teachers.",
-      "thirdDescription": "Migrate from PHP to NextJS 14 and Node.js, helping to increase efficiency for our team and students as well."
+      "firstDescription": "Provided technical support and solutions to LMS platforms.",
+      "secondDescription": "I implemented methodologies such as mobile-first, Scrum, RAD and BEM for project management and development.",
+      "thirdDescription": "I developed user interfaces and functionalities using React, Next.js and CSS."
     },
-    "thirdJob": {
-      "title": "React Native Teacher",
+    "secondJob": {
+      "title": "Junior Assistant Developer",
       "company": "@Klazia",
-      "date": "April 2024",
-      "firstDescription": "Develop an introductory course to the development of mobile applications with React Native.",
-      "secondDescription": "Create and design didactic material for students.",
-      "thirdDescription": "Create, design and execute a project for the course as a final test of knowledge. An instagram style blog application was made where basic to advanced knowledge such as useState, useEffect, useContext, use of props, creation of hooks, etc... were put into practice."
+      "date": "December 2023 - March 2024 (3 months)",
+      "firstDescription": "I participated in the development of ladingpage using technologies such as Worpress Elementor.",
+      "secondDescription": "I used technologies such as PHP, CSS and Javascript for the development and maintenance of the website.",
+      "thirdDescription": "Collaborated with multidisciplinary teams to define and meet project requirements",
+      "quarterDescription": "I applied agile methodologies such as Scrum for task planning and execution.",
+      "fifthDescription": "Provide support to students of the platform."
     },
 
     "education": "Education",
@@ -63,7 +58,7 @@
     "secondEducation": {
       "title": "SENA",
       "profession": "Software Analysis and Development",
-      "description": "Technical career in Software Analysis and Development. With experience in web and desktop application development, starting from its planning, design and development. Supported with different tools such as Miro, Lucichard, Office, Databases (relational and non-relational) and various programming languages.",
+      "description": "Technologist in Software Analysis and Development with competences in requirement analysis; design, layout and development of web pages, web apps and API's. I also have solid knowledge in relational and non-relational database management as well as handling different tools for code development.",
       "certification": "Certification",
       "date": "2023 - 2025"
     },

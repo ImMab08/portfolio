@@ -27,28 +27,24 @@
     "spanTitle": "excepcionales",
     "description": "Uniendo creatividad y código para convertir las ideas en realidades digitales. Me apasiona crear experiencias web que cautiven e inspiren. Explora mi portafolio y sé testigo de la mezcla perfecta de innovación y experiencia técnica en cada proyecto.",
     "experience": "Experiencia",
+    
     "firstJob": {
-      "title": "Junior Frontend Developer",
-      "company": "@Maxwell Leadership",
-      "date": "Diciembre 2023 - Marzo 2024 (3 meses)",
-      "firstDescription": "Desarrollo de landingpage desde cero: Desarrollé landingpage a partir de maquetas, asegurando una transición fluida desde el diseño hasta la implementación.",
-      "secondDescription": "Creación de plugins personalizados para consultas API: Creé plugins personalizados para realizar consultas a través de una API REST, mejorando las capacidades de recuperación e integración de datos."
-    },
-    "secondJob": {
-      "title": "Junior Frontend Developer",
+      "title": "Desarrollador Junior - Soporte y Soluciones a Plataformas LMS",
       "company": "@Klazia",
       "date": "Agosto 2023 - Diciembre 2024 (4 meses)",
-      "firstDescription": "Mejorar componentes personalizados para diferentes páginas construidas para estudiantes, padres, administradores, gestores de contenido, asesores, afiliados y profesores. Mejorar la legibilidad y funcionalidad mediante la refactorización de la arquitectura del proyecto heredado.",
-      "secondDescription": "Construir un sistema de chat para nuestros estudiantes y profesores.",
-      "thirdDescription": "Migrar de PHP a NextJS 14 y Node.js, ayudando a aumentar la eficiencia para nuestro equipo y estudiantes."
+      "firstDescription": "Proporcioné soporte técnico y soluciones a plataformas LMS.",
+      "secondDescription": "Implementé metodologías como mobile-first, Scrum, RAD y BEM para la gestión y desarrollo de proyectos.",
+      "thirdDescription": "Desarrollé interfaces de usuario y funcionalidades utilizando React, Next.js y CSS."
     },
-    "thirdJob": {
-      "title": "Profesor React Native",
+    "secondJob": {
+      "title": "Ayudante Desarrollador Junior",
       "company": "@Klazia",
-      "date": "Abril 2024",
-      "firstDescription": "Desarrolle un curso de introductorio al desarrollo de aplicaciones móviles con React Native.",
-      "secondDescription": "Crear y diseñar material didáctico para los estudiantes.",
-      "thirdDescription": "Crear, diseñar y ejecutar un proyecto para el curso como prueba final de conocimientos. Se realizó una aplicación de blog estilo Instagram donde se pusieron en práctica conocimientos básicos a avanzados, como useState, useEffect, useContext, uso de props, creación de hooks, etc."
+      "date": "Diembre 2023 - Marzo 2024 (3 meses)",
+      "firstDescription": "Participé en el desarrollo de ladingpage usando tecnologías como Elementor de Worpress.",
+      "secondDescription": "Utilicé tecnologías como PHP, CSS y Javascript para el desarrollo y mantenimiento del sitio web.",
+      "thirdDescription": "Colaboré con equipos multidisciplinarios para definir y cumplir con los requerimientos del proyecto",
+      "quarterDescription": "Apliqué metodologías ágiles como Scrum para la planificación y ejecución de tareas.",
+      "fifthDescription": "Brindar soporte y a estudiantes de la plataforma."
     },
 
     "education": "Educación",
@@ -62,9 +58,9 @@
     "secondEducation": {
       "title": "SENA",
       "profession": "Análisis y Desarrollo de Software",
-      "description": "Professional career in Business Administration. With experience in GTH (Human Talent Management), accounting, project management and other related activities. Supporting me with different tools such as Office, Power BI and Databases (relational and non-relational).",
+      "description": "Técnologo en Análisis y Desarrollo de Sofware con competencian en análisis de requirimiento; diseño, maquetación y desarrollo de páginas webs, apps webs y API's. También cuento con solidos conocimientos en manejo de bases de datos relacionales y no relaciones al igual que manejo de diferentes herramientas para el desarrollo del código.",
       "certification": "Cetificación",
-      "date": "2018 - 2023"
+      "date": "2023 - 2025"
     },
     "thirdEducation": {
       "title": "Udemy",

@@ -21,7 +21,6 @@ const Hero = () => {
 
   return (
     <section className='h-screen flex flex-col items-center justify-center'> 
-
       <div className='lg:flex lg:w-full lg:px-32'>
         <div className='lg:w-1/2 lg:flex lg:flex-col lg:justify-center'>
           <h1 className='text-white text-2xl lg:text-5xl font-bold leading-6 md:leading-[2px]'>{t('title')}</h1>
@@ -34,7 +33,7 @@ const Hero = () => {
 
           <div className='flex items-center mt-5 lg:mt-14'>            
             <a download="" href="/HV_Franky_Vargas.pdf" target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold">{t('cv')}
-              <IconDownload width={24} height={24} className="mt-[2px]" />
+              <IconDownload width={22} height={22} className="mt-1" />
             </a> 
 
             <div className='flex items-center group'>
