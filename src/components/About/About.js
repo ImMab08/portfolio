@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 
 import Carousel from './config/Carousel'
 import { carouselData } from './config/index'
-import { IconCode, IconEducation, IconLogoSena, IconLogoUnivalle } from "@/icons";
+import { IconCode, IconEducation, IconLogoPlatzi, IconLogoSena, IconLogoUnivalle } from "@/icons";
 
 const About = () => {
   const t = useTranslations("about");
@@ -67,7 +67,7 @@ const About = () => {
         </div>
 
         <div className="bg-neutral-900 w-[10rem] lg:w-[20rem] h-[10rem] lg:h-[20rem] rounded-t-full absolute top-[152rem] lg:top-[39rem] right-[7.3rem] lg:right-[16.5rem] z-[0] flex justify-center cursor-pointer hover:-translate-y-5 transition-all ease-out duration-300">
-          <IconEducation width={42} height={42} className="mt-4"/>
+          <IconEducation width={50} height={50} className="mt-4"/>
         </div>
         <div className="mt-40 lg:mt-0 bg-neutral-900 lg:w-1/2 h-auto container px-5 lg:px-10 py-8 rounded-xl space-y-10 relative z-10">
           <h2 className="text-3xl text-center font-bold text-white font-jetbrains">{t('education')}</h2>
@@ -103,6 +103,23 @@ const About = () => {
             <div className="flex items-center justify-between">
               <p className="text-white text-xs hover:text-green-500 py-1 px-4 bg-white/10 rounded-xl">{t("secondEducation.certification")}</p>
               <time className="text-end text-xs text-gray-200/40">{t("secondEducation.date")}</time>
+            </div>
+          </div>
+
+          <div className="bg-neutral-900 p-5 rounded-md w-full space-y-5 border-2 border-white/10">
+            <div className="space-y-2">
+              <div className="flex space-x-2 items-center">
+                <IconLogoPlatzi width={30} height={30} />
+                <h3 className="text-xl font-bold text-[#09E989]">{t("thirdEducation.title")}</h3>
+              </div>
+              <h4 className="font-semibold text-sm text-gray-600 dark:text-white">{t("thirdEducation.profession")}</h4>
+            </div>
+            <div>
+              <p className="text-sm text-white/60">{t("thirdEducation.description")}</p>
+            </div>
+            <div className="flex items-center justify-between">
+              <p className="text-white text-xs hover:text-green-500 py-1 px-4 bg-white/10 rounded-xl">{t("thirdEducation.certification")}</p>
+              <time className="text-end text-xs text-gray-200/40">{t("thirdEducation.date")}</time>
             </div>
           </div>
 

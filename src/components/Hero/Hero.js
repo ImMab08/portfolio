@@ -33,13 +33,15 @@ const Hero = () => {
 
           <div className='flex items-center mt-5 lg:mt-14'>            
             <a download="" href="/HV_Franky_Vargas.pdf" target="_blank" className="flex mr-4 rounded-lg bg-white text-dark p-1 lg:p-2 px-4 lg:px-6 text-base lg:text-lg font-semibold">{t('cv')}
-              <IconDownload width={22} height={22} className="mt-1" />
+              <IconDownload width={22} height={22} className="mt-[2px] block md:hidden" />
+              <IconDownload width={22} height={22} className="mt-1 hidden md:block" />
             </a> 
 
             <div className='flex items-center group'>
               <Link className='text-white text-base lg:text-lg font-semibold' href="/about">{t('learnMore')}</Link>
               <div className="ml-1 transition-transform duration-300 transform group-hover:translate-x-2">
-                <IconArrowRight width={28} height={28} className="mt-1" />
+                <IconArrowRight width={28} height={28} className="mt-[2px] block md:hidden" />
+                <IconArrowRight width={28} height={28} className="mt-[3px] hidden md:block" />
               </div>
             </div>
           </div>

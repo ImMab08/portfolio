@@ -52,29 +52,22 @@
       "title": "Universidad del Valle",
       "profession": "Administración de Empresas",
       "description": "Carrera profesional en Administrador de Empresas. Con experiencia por competencias en GTH (Gestión del Talento Humano), contabilidad, gestión de proyectos y demás actividades afines. Apoyandome con diferentes herramientas como Office, Power BI y Bases de datos (Relacionales y no relaciones).",
-      "certification": "Cetificación",
+      "certification": "Certificado",
       "date": "2021 - 2026"
     },
     "secondEducation": {
       "title": "SENA",
       "profession": "Análisis y Desarrollo de Software",
       "description": "Técnologo en Análisis y Desarrollo de Sofware con competencian en análisis de requirimiento; diseño, maquetación y desarrollo de páginas webs, apps webs y API's. También cuento con solidos conocimientos en manejo de bases de datos relacionales y no relaciones al igual que manejo de diferentes herramientas para el desarrollo del código.",
-      "certification": "Cetificación",
+      "certification": "Certificado",
       "date": "2023 - 2025"
     },
     "thirdEducation": {
-      "title": "Udemy",
-      "profession": "Business Administration",
-      "description": "Professional career in Business Administration. With experience in GTH (Human Talent Management), accounting, project management and other related activities. Supporting me with different tools such as Office, Power BI and Databases (relational and non-relational).",
-      "certification": "Cetificación",
-      "date": "2018 - 2023"
-    },
-    "fortyEducation": {
       "title": "Platzi",
-      "profession": "Business Administration",
-      "description": "Professional career in Business Administration. With experience in GTH (Human Talent Management), accounting, project management and other related activities. Supporting me with different tools such as Office, Power BI and Databases (relational and non-relational).",
-      "certification": "Cetificación",
-      "date": "2018 - 2023"
+      "profession": "Escuela de desarrollo",
+      "description": "Estudie diferentes cursos de desarrollo web, bases de datos, lenguajes de programación para backend y frontend, desarrollo móvil al igual que métodologias y buenas prácticas para programación.",
+      "certification": "Certificado",
+      "date": "2024"
     },
     "programming": "Lenguajes de Programación"
   },

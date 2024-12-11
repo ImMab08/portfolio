@@ -63,20 +63,12 @@
       "date": "2023 - 2025"
     },
     "thirdEducation": {
-      "title": "Udemy",
-      "profession": "Business Administration",
-      "description": "Professional career in Business Administration. With experience in GTH (Human Talent Management), accounting, project management and other related activities. Supporting me with different tools such as Office, Power BI and Databases (relational and non-relational).",
-      "certification": "Certification",
-      "date": "2018 - 2023"
-    },
-    "fortyEducation": {
       "title": "Platzi",
-      "profession": "Business Administration",
-      "description": "Professional career in Business Administration. With experience in GTH (Human Talent Management), accounting, project management and other related activities. Supporting me with different tools such as Office, Power BI and Databases (relational and non-relational).",
+      "profession": "Development school",
+      "description": "I studied different courses on web development, databases, backend and frontend programming languages, mobile development as well as programming methods and best practices.",
       "certification": "Certification",
-      "date": "2018 - 2023"
+      "date": "2021"
     },
-
     "programming": "Programming Languajes"
   },
 
