@@ -58,7 +58,7 @@ export default function Navbard() {
         </div>
 
         <div className="container-svg-header cursor-pointer" onClick={toggleMenu}>
-          <IconBarsMenu width={25} height={25} />
+          <IconBarsMenu width={28} height={28} />
         </div>
 
       </nav>

@@ -8,7 +8,7 @@ export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
   
-  const [locale, setLocale] = useState('en');
+  const [locale, setLocale] = useState('es');
   const [isOpen, setIsOpen] = useState(false);
   const butRef = useRef(null);
   
